@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "page from package"
+    },
+    {
+      "name": "address_exchange_address_left",
+      "value": "北京"
+    },
+    {
+      "name": "address_exchange_address_right",
+      "value": "上海"
+    },
+    {
+      "name": "address_exchange_date",
+      "value": "2月8日"
+    },
+    {
+      "name": "address_exchange_week",
+      "value": "周四"
+    },
+    {
+      "name": "address_exchange_address_width",
+      "value": "40%"
+    },
+    {
+      "name": "address_exchange_search_ticket",
+      "value": "查询车票"
+    }
+  ]
+}

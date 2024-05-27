@@ -30,6 +30,10 @@
           ]
         }
       ]
+    },
+    {
+      "name": "addressexchange",
+      "srcPath": "./feature/addressexchange",
     }
   ]
 }
