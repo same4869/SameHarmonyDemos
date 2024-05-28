@@ -1,6 +1,5 @@
 {
   "src": [
-    "pages/Index",
-    "pages/AddressExchangePage"
+    "pages/Index"
   ]
 }

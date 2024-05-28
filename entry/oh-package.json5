@@ -6,6 +6,7 @@
   "author": "",
   "license": "",
   "dependencies": {
+    "@same/utils": "file:../common/utils",
     "@same/addressexchange": "file:../feature/addressexchange"
   }
 }

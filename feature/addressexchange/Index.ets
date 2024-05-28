@@ -1,1 +1,1 @@
-export { MainPage } from './src/main/ets/components/mainpage/MainPage'
+export { AddressExchangeView } from './src/main/ets/view/AddressExchangeView'

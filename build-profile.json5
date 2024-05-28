@@ -5,6 +5,7 @@
       {
         "name": "default",
         "signingConfig": "default",
+        "compileSdkVersion": "4.1.0(11)",
         "compatibleSdkVersion": "4.1.0(11)",
         "runtimeOS": "HarmonyOS",
       }
@@ -34,6 +35,10 @@
     {
       "name": "addressexchange",
       "srcPath": "./feature/addressexchange",
+    },
+    {
+      "name": "utils",
+      "srcPath": "./common/utils"
     }
   ]
 }
