@@ -5,7 +5,6 @@
       {
         "name": "default",
         "signingConfig": "default",
-        "compileSdkVersion": "4.1.0(11)",
         "compatibleSdkVersion": "4.1.0(11)",
         "runtimeOS": "HarmonyOS",
       }
@@ -39,6 +38,10 @@
     {
       "name": "utils",
       "srcPath": "./common/utils"
+    },
+    {
+      "name": "customtabbar",
+      "srcPath": "./feature/customtabbar",
     }
   ]
 }

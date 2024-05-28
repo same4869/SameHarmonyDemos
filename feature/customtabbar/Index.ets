@@ -1,0 +1,1 @@
+export { TabView } from './src/main/ets/view/TabView'
