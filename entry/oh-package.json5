@@ -8,7 +8,8 @@
   "dependencies": {
     "@same/utils": "file:../common/utils",
     "@same/addressexchange": "file:../feature/addressexchange",
-    "@same/customtabbar": "file:../feature/customtabbar"
+    "@same/customtabbar": "file:../feature/customtabbar",
+    "@same/modalwindow": "file:../feature/modalwindow"
   }
 }
 

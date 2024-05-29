@@ -44,6 +44,10 @@
     {
       "name": "customtabbar",
       "srcPath": "./feature/customtabbar",
+    },
+    {
+      "name": "modalwindow",
+      "srcPath": "./feature/modalwindow"
     }
   ]
 }

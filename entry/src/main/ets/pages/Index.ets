@@ -2,6 +2,7 @@ import { router } from '@kit.ArkUI';
 import { MLog } from '@same/utils/Index';
 import('@same/addressexchange/src/main/ets/view/AddressExchangeView');
 import('@same/customtabbar/src/main/ets/view/TabView');
+import('@same/modalwindow/src/main/ets/components/ModalWindow');
 
 @Entry
 @Component
@@ -25,6 +26,14 @@ struct Index {
       Button("自定义tabbar").onClick(() => {
         router.pushNamedRoute({
           name: 'customtabbar',
+          params: {}
+        }).catch((e: Error) => {
+          MLog.debug('router push error' + JSON.stringify(e))
+        })
+      })
+      Button("全屏登录页面").onClick(() => {
+        router.pushNamedRoute({
+          name: 'modalwindow',
           params: {}
         }).catch((e: Error) => {
           MLog.debug('router push error' + JSON.stringify(e))
