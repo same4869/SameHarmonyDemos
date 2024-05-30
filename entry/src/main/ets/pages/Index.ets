@@ -3,6 +3,7 @@ import { MLog } from '@same/utils/Index';
 import('@same/addressexchange/src/main/ets/view/AddressExchangeView');
 import('@same/customtabbar/src/main/ets/view/TabView');
 import('@same/modalwindow/src/main/ets/components/ModalWindow');
+import('@same/mpcharts/src/main/ets/health/view/MpCharts');
 
 @Entry
 @Component
@@ -34,6 +35,14 @@ struct Index {
       Button("全屏登录页面").onClick(() => {
         router.pushNamedRoute({
           name: 'modalwindow',
+          params: {}
+        }).catch((e: Error) => {
+          MLog.debug('router push error' + JSON.stringify(e))
+        })
+      })
+      Button("MpChart图表实现案例").onClick(() => {
+        router.pushNamedRoute({
+          name: 'mpcharts',
           params: {}
         }).catch((e: Error) => {
           MLog.debug('router push error' + JSON.stringify(e))
