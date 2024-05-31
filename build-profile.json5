@@ -52,6 +52,10 @@
     {
       "name": "barchart",
       "srcPath": "./feature/barchart"
+    },
+    {
+      "name": "slidetohideanddisplace",
+      "srcPath": "./feature/slidetohideanddisplace"
     }
   ]
 }

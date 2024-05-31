@@ -10,7 +10,8 @@
     "@same/addressexchange": "file:../feature/addressexchange",
     "@same/customtabbar": "file:../feature/customtabbar",
     "@same/modalwindow": "file:../feature/modalwindow",
-    "@same/mpcharts": "file:../feature/barchart"
+    "@same/mpcharts": "file:../feature/barchart",
+    "@same/slidetohideanddisplace": "file:../feature/slidetohideanddisplace"
   }
 }
 

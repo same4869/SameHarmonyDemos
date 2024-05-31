@@ -1,9 +1,11 @@
 import { router } from '@kit.ArkUI';
 import { MLog } from '@same/utils/Index';
+
 import('@same/addressexchange/src/main/ets/view/AddressExchangeView');
 import('@same/customtabbar/src/main/ets/view/TabView');
 import('@same/modalwindow/src/main/ets/components/ModalWindow');
 import('@same/mpcharts/src/main/ets/health/view/MpCharts');
+import('@same/slidetohideanddisplace/src/main/ets/components/SlideToHideAndDisplace');
 
 @Entry
 @Component
@@ -43,6 +45,14 @@ struct Index {
       Button("MpChart图表实现案例").onClick(() => {
         router.pushNamedRoute({
           name: 'mpcharts',
+          params: {}
+        }).catch((e: Error) => {
+          MLog.debug('router push error' + JSON.stringify(e))
+        })
+      })
+      Button("滑动页面信息隐藏与组件位移效果").onClick(() => {
+        router.pushNamedRoute({
+          name: 'SlideToHideAndDisplace',
           params: {}
         }).catch((e: Error) => {
           MLog.debug('router push error' + JSON.stringify(e))
