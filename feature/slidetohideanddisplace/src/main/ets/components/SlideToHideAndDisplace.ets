@@ -2,7 +2,7 @@ import { promptAction } from '@kit.ArkUI'
 import { IconAndDescription, Size } from '../utils/Util';
 
 @Preview
-@Entry({ routeName: 'SlideToHideAndDisplace' })
+@Entry({ routeName: 'slidetohideanddisplace/SlideToHideAndDisplace' })
 @Component
 export struct SlideToHideAndDisplace {
   @State userNameOpacity: number = 1

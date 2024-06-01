@@ -1,6 +1,6 @@
 import { curves, promptAction } from '@kit.ArkUI';
 
-@Entry({ routeName: 'AddressExchangePage' })
+@Entry({ routeName: 'addressexchange/AddressExchangeView' })
 @Component
 export struct AddressExchangeView {
   // 内容相隔距离

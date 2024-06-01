@@ -1,7 +1,7 @@
 import { CustomTabBar } from './CustomTabBar'
 
 @Preview
-@Entry({ routeName: 'customtabbar' })
+@Entry({ routeName: 'customtabbar/TabView' })
 @Component
 export struct TabView {
   @Provide selectedIndex: number = 0

@@ -10,7 +10,7 @@ const STEP_NUMBER_TODAY_DATA: Array<number> = [0, 0, 0, 0, 0, 0, 0, 580, 1309, 8
 // 步数参考数据
 const STEP_NUMBER_REFERENCE_DATA: Array<number> = [0, 0, 0, 0, 0, 0, 230, 706, 809, 450, 166, 186, 708, 304, 31, 166, 188, 406, 1405, 155, 303, 122, 0, 0, 0, 0, 0, 0];
 
-@Entry({ routeName: 'mpcharts' })
+@Entry({ routeName: 'barchart/MpCharts' })
 @Preview
 @Component
 export struct MpCharts {

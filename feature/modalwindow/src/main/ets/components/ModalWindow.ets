@@ -2,7 +2,7 @@ import { DefaultLogin } from './DefaultLogin'
 
 @Preview
 @Component
-@Entry({ routeName: 'modalwindow' })
+@Entry({ routeName: 'modalwindow/ModalWindow' })
 export struct ModalWindow {
   @State isPresent: boolean = false
 

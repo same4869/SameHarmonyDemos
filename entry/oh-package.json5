@@ -11,7 +11,8 @@
     "@same/customtabbar": "file:../feature/customtabbar",
     "@same/modalwindow": "file:../feature/modalwindow",
     "@same/mpcharts": "file:../feature/barchart",
-    "@same/slidetohideanddisplace": "file:../feature/slidetohideanddisplace"
+    "@same/slidetohideanddisplace": "file:../feature/slidetohideanddisplace",
+    "@same/functionalscenes": "file:../feature/functionalscenes"
   }
 }
 
