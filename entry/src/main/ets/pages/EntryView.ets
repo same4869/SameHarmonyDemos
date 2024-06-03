@@ -7,6 +7,7 @@ import('@same/customtabbar/src/main/ets/view/TabView');
 import('@same/modalwindow/src/main/ets/components/ModalWindow');
 import('@same/mpcharts/src/main/ets/health/view/MpCharts');
 import('@same/slidetohideanddisplace/src/main/ets/components/SlideToHideAndDisplace');
+import('@same/imageviewerview/src/main/ets/view/ImageViewerView');
 
 @Entry
 @Component
@@ -16,7 +17,7 @@ struct EntryView {
   build() {
     Stack() {
       Navigation() {
-        FunctionalScenes({listData:this.listData})
+        FunctionalScenes({ listData: this.listData })
       }
       .mode(NavigationMode.Stack)
       .navBarWidth("50%")

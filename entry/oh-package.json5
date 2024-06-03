@@ -12,7 +12,8 @@
     "@same/modalwindow": "file:../feature/modalwindow",
     "@same/mpcharts": "file:../feature/barchart",
     "@same/slidetohideanddisplace": "file:../feature/slidetohideanddisplace",
-    "@same/functionalscenes": "file:../feature/functionalscenes"
+    "@same/functionalscenes": "file:../feature/functionalscenes",
+    "@same/imageviewerview": "file:../feature/imageviewer"
   }
 }
 
