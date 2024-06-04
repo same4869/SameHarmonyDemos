@@ -13,7 +13,8 @@
     "@same/mpcharts": "file:../feature/barchart",
     "@same/slidetohideanddisplace": "file:../feature/slidetohideanddisplace",
     "@same/functionalscenes": "file:../feature/functionalscenes",
-    "@same/imageviewerview": "file:../feature/imageviewer"
+    "@same/imageviewerview": "file:../feature/imageviewer",
+    "@same/eventpropagation": "file:../feature/eventpropagation"
   }
 }
 

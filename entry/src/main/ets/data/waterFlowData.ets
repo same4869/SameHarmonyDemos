@@ -7,4 +7,5 @@ export const waterFlowData: SceneModuleInfo[] = [
   new SceneModuleInfo($r('app.media.mp_charts'), 'MpChart运动健康', "barchart/MpCharts", '三方库', 3),
   new SceneModuleInfo($r('app.media.slide_to_hide_and_displace'), '滑动页面改变顶部个人信息栏显示效果', 'slidetohideanddisplace/SlideToHideAndDisplace', '动效'),
   new SceneModuleInfo($r('app.media.image_viewer'), '图片缩放功能实现', 'imageviewer/ImageViewerView', '其他'),
+  new SceneModuleInfo($r('app.media.event_propagation'), '阻塞事件冒泡', 'eventpropagation/EventPropagation', '其他', 1),
 ]

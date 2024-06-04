@@ -6,6 +6,7 @@
         "name": "default",
         "signingConfig": "default",
         "targetSdkVersion": "4.1.0(11)",
+        "compileSdkVersion": "4.1.0(11)",
         "compatibleSdkVersion": "4.1.0(11)",
         "runtimeOS": "HarmonyOS",
       }
@@ -63,6 +64,10 @@
     {
       "name": "imageviewer",
       "srcPath": "./feature/imageviewer"
+    },
+    {
+      "name": "eventpropagation",
+      "srcPath": "./feature/eventpropagation"
     }
   ]
 }
