@@ -72,6 +72,10 @@
     {
       "name": "secondarylinkage",
       "srcPath": "./feature/secondarylinkage"
+    },
+    {
+      "name": "pendingitems",
+      "srcPath": "./feature/pendingitems"
     }
   ]
 }
