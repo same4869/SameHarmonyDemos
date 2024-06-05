@@ -9,6 +9,7 @@ import('@same/mpcharts/src/main/ets/health/view/MpCharts');
 import('@same/slidetohideanddisplace/src/main/ets/components/SlideToHideAndDisplace');
 import('@same/imageviewerview/src/main/ets/view/ImageViewerView');
 import('@same/eventpropagation/src/main/ets/view/EventPropagation');
+import('@same/secondarylinkexample/src/main/ets/pages/SecondaryLinkExample');
 
 @Entry
 @Component

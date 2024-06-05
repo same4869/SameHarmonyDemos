@@ -68,6 +68,10 @@
     {
       "name": "eventpropagation",
       "srcPath": "./feature/eventpropagation"
+    },
+    {
+      "name": "secondarylinkage",
+      "srcPath": "./feature/secondarylinkage"
     }
   ]
 }
