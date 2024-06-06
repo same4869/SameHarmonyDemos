@@ -10,6 +10,7 @@ import('@same/slidetohideanddisplace/src/main/ets/components/SlideToHideAndDispl
 import('@same/imageviewerview/src/main/ets/view/ImageViewerView');
 import('@same/eventpropagation/src/main/ets/view/EventPropagation');
 import('@same/secondarylinkexample/src/main/ets/pages/SecondaryLinkExample');
+import('@same/todolist/src/main/ets/pages/ToDoList');
 
 @Entry
 @Component

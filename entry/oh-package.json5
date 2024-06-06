@@ -15,7 +15,8 @@
     "@same/functionalscenes": "file:../feature/functionalscenes",
     "@same/imageviewerview": "file:../feature/imageviewer",
     "@same/eventpropagation": "file:../feature/eventpropagation",
-    "@same/secondarylinkexample": "file:../feature/secondarylinkage"
+    "@same/secondarylinkexample": "file:../feature/secondarylinkage",
+    "@same/todolist": "file:../feature/pendingitems"
   }
 }
 
