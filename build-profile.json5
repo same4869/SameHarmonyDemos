@@ -6,6 +6,7 @@
         "name": "default",
         "signingConfig": "default",
         "targetSdkVersion": "4.1.0(11)",
+        "compileSdkVersion": "4.1.0(11)",
         "compatibleSdkVersion": "4.1.0(11)",
         "runtimeOS": "HarmonyOS",
       }
@@ -75,6 +76,10 @@
     {
       "name": "pendingitems",
       "srcPath": "./feature/pendingitems"
+    },
+    {
+      "name": "nativerawfile",
+      "srcPath": "./feature/nativerawfile"
     }
   ]
 }

@@ -1,5 +1,4 @@
 import { ToDo } from '../model/ToDo';
-import text from '@ohos.graphics.text';
 
 @Component
 export struct ToDoListItem {
