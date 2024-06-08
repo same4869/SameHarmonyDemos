@@ -17,7 +17,8 @@
     "@same/eventpropagation": "file:../feature/eventpropagation",
     "@same/secondarylinkexample": "file:../feature/secondarylinkage",
     "@same/todolist": "file:../feature/pendingitems",
-    "@same/nativerawfiledemo": "file:../feature/nativerawfile"
+    "@same/nativerawfiledemo": "file:../feature/nativerawfile",
+    "@same/friendsbook": "file:../feature/gbktranscoding"
   }
 }
 

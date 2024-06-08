@@ -12,6 +12,7 @@ import('@same/eventpropagation/src/main/ets/view/EventPropagation');
 import('@same/secondarylinkexample/src/main/ets/pages/SecondaryLinkExample');
 import('@same/todolist/src/main/ets/pages/ToDoList');
 import('@same/nativerawfiledemo/src/main/ets/components/mainpage/NativeRawfileDemo');
+import('@same/friendsbook/src/main/ets/pages/FriendsBook');
 
 @Entry
 @Component
