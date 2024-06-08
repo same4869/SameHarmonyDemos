@@ -13,6 +13,7 @@ import('@same/secondarylinkexample/src/main/ets/pages/SecondaryLinkExample');
 import('@same/todolist/src/main/ets/pages/ToDoList');
 import('@same/nativerawfiledemo/src/main/ets/components/mainpage/NativeRawfileDemo');
 import('@same/friendsbook/src/main/ets/pages/FriendsBook');
+import('@same/handletabs/src/main/ets/pages/HandleTabs');
 
 @Entry
 @Component

@@ -12,4 +12,5 @@ export const waterFlowData: SceneModuleInfo[] = [
   new SceneModuleInfo($r('app.media.todo_list'), '列表编辑', 'pendingitems/ToDoList', 'UI布局', 1),
   new SceneModuleInfo($r('app.media.raw_file'), '预加载so并读取RawFile文件', "nativerawfile/NativeRawfileDemo", 'Native'),
   new SceneModuleInfo($r("app.media.gbk_friends_book"), 'GBK文本格式解码', 'gbktranscoding/FriendsBook', '其他'),
+  new SceneModuleInfo($r('app.media.handle_tabs'), '增删tab页签', 'handletabs/HandleTabs', 'UI布局'),
 ]

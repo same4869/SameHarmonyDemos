@@ -1,6 +1,6 @@
-import { CommonLazyDataSourceModel, FunctionDescription } from '@same/common/Index'
+import { CommonLazyDataSourceModel, FunctionDescription, MLog } from '@same/common/Index'
 import { promptAction } from '@kit.ArkUI'
-import axios, { Axios, AxiosResponse } from '@ohos/axios';
+import axios, { Axios, AxiosError, AxiosResponse } from '@ohos/axios';
 import { util } from '@kit.ArkTS';
 
 const URL: string =
@@ -111,6 +111,10 @@ export struct FriendsBook {
           this.friendsListData.pushData(contactTemp);
         }
       })
+      .catch((e: AxiosError) => {
+        MLog.debug("e.message -> " + e.message)
+      })
+
   }
 }
 

@@ -18,7 +18,8 @@
     "@same/secondarylinkexample": "file:../feature/secondarylinkage",
     "@same/todolist": "file:../feature/pendingitems",
     "@same/nativerawfiledemo": "file:../feature/nativerawfile",
-    "@same/friendsbook": "file:../feature/gbktranscoding"
+    "@same/friendsbook": "file:../feature/gbktranscoding",
+    "@same/handletabs": "file:../feature/handletabs",
   }
 }
 
