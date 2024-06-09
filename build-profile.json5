@@ -87,6 +87,10 @@
     {
       "name": "handletabs",
       "srcPath": "./feature/handletabs",
+    },
+    {
+      "name": "akiusepractice",
+      "srcPath": "./feature/akiusepractice",
     }
   ]
 }

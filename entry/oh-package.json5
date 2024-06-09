@@ -20,6 +20,7 @@
     "@same/nativerawfiledemo": "file:../feature/nativerawfile",
     "@same/friendsbook": "file:../feature/gbktranscoding",
     "@same/handletabs": "file:../feature/handletabs",
+    "@same/akiview": "file:../feature/akiusepractice"
   }
 }
 
