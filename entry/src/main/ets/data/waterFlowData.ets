@@ -14,4 +14,5 @@ export const waterFlowData: SceneModuleInfo[] = [
   new SceneModuleInfo($r("app.media.gbk_friends_book"), 'GBK文本格式解码', 'gbktranscoding/FriendsBook', '其他'),
   new SceneModuleInfo($r('app.media.handle_tabs'), '增删tab页签', 'handletabs/HandleTabs', 'UI布局'),
   new SceneModuleInfo($r('app.media.aki_use_practice'), 'AKI使用实践', "akiusepractice/AkiView", '三方库', 2,),
+  new SceneModuleInfo($r('app.media.variable_watch'), '多层嵌套类监听', 'variablewatch/VariableWatchView', '其他'),
 ]
