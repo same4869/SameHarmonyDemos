@@ -16,4 +16,5 @@ export const waterFlowData: SceneModuleInfo[] = [
   new SceneModuleInfo($r('app.media.aki_use_practice'), 'AKI使用实践', "akiusepractice/AkiView", '三方库', 2,),
   new SceneModuleInfo($r('app.media.variable_watch'), '多层嵌套类监听', 'variablewatch/VariableWatchView', '其他'),
   new SceneModuleInfo($r('app.media.photo_pick_and_save'), '图片选择和下载保存', 'photopickandsave/PictureManager', '其他', 1),
+  new SceneModuleInfo($r('app.media.application_exception'), '异常处理', "applicationexception/ApplicationExceptionView", '其他', 2,),
 ]
