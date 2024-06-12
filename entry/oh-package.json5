@@ -23,7 +23,8 @@
     "@same/akiview": "file:../feature/akiusepractice",
     "@same/variablewatchview": "file:../feature/variablewatch",
     "@same/photopickandsave": "file:../feature/photopickandsave",
-    "@same/applicationexception": "file:../feature/applicationexception"
+    "@same/applicationexception": "file:../feature/applicationexception",
+    "@same/fitfordarkmode": "file:../feature/fitfordarkmode"
   }
 }
 

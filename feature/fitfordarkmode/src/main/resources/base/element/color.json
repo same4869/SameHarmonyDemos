@@ -1,0 +1,40 @@
+{
+  "color": [
+    {
+      "name": "fit_for_dark_mode_page_bg_color",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "fit_for_dark_mode_column_bg_color",
+      "value": "#FA5A3C"
+    },
+    {
+      "name": "fit_for_dark_mode_black_font_color",
+      "value": "#000000"
+    },
+    {
+      "name": "fit_for_dark_mode_white_font_color",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "fit_for_dark_mode_search_bg_color",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "fit_for_dark_mode_product_bg_color",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "fit_for_dark_mode_list_bg_color",
+      "value": "#E7D9D9"
+    },
+    {
+      "name": "fit_for_dark_mode_custom_bg_color",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "fit_for_dark_mode_view_fill_color",
+      "value": "#000000"
+    }
+  ]
+}

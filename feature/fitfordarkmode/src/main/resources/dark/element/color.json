@@ -1,0 +1,24 @@
+{
+  "color": [
+    {
+      "name": "fit_for_dark_mode_page_bg_color",
+      "value": "#000000"
+    },
+    {
+      "name": "fit_for_dark_mode_column_bg_color",
+      "value": "#000000"
+    },
+    {
+      "name": "fit_for_dark_mode_product_bg_color",
+      "value": "#000000"
+    },
+    {
+      "name": "fit_for_dark_mode_custom_bg_color",
+      "value": "#000000"
+    },
+    {
+      "name": "fit_for_dark_mode_view_fill_color",
+      "value": "#FFFFFF"
+    }
+  ]
+}
