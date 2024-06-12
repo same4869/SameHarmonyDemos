@@ -1,4 +1,4 @@
-import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
+import { AbilityConstant, Configuration, UIAbility, Want } from '@kit.AbilityKit';
 import { hilog } from '@kit.PerformanceAnalysisKit';
 import { window } from '@kit.ArkUI';
 import { eventSubscription } from '@same/applicationexception/Index';
@@ -26,6 +26,9 @@ export default class EntryAbility extends UIAbility {
       }
       hilog.info(0x0000, 'testTag', 'Succeeded in loading the content.');
     });
+
+    // 获取当前的颜色模式并保存
+    AppStorage.setOrCreate('currentColorMode', this.context.config.colorMode);
   }
 
   onWindowStageDestroy(): void {
@@ -41,5 +44,10 @@ export default class EntryAbility extends UIAbility {
   onBackground(): void {
     // Ability has back to background
     hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onBackground');
+  }
+
+  onConfigurationUpdate(newConfig: Configuration): void {
+    // 获取最新的变更颜色并更新到AppStorage
+    AppStorage.setOrCreate('currentColorMode', newConfig.colorMode);
   }
 }
