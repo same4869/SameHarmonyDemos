@@ -24,7 +24,8 @@
     "@same/variablewatchview": "file:../feature/variablewatch",
     "@same/photopickandsave": "file:../feature/photopickandsave",
     "@same/applicationexception": "file:../feature/applicationexception",
-    "@same/fitfordarkmode": "file:../feature/fitfordarkmode"
+    "@same/fitfordarkmode": "file:../feature/fitfordarkmode",
+    "@same/marquee": "file:../feature/marquee"
   }
 }
 

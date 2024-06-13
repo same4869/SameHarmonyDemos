@@ -18,4 +18,5 @@ export const waterFlowData: SceneModuleInfo[] = [
   new SceneModuleInfo($r('app.media.photo_pick_and_save'), '图片选择和下载保存', 'photopickandsave/PictureManager', '其他', 1),
   new SceneModuleInfo($r('app.media.application_exception'), '异常处理', "applicationexception/ApplicationExceptionView", '其他', 2,),
   new SceneModuleInfo($r('app.media.fit_for_dark_mode'), '深色模式', 'fitfordarkmode/FitForDarkMode', 'UI布局'),
+  new SceneModuleInfo($r('app.media.marquee'), '跑马灯', 'marquee/MarqueeView', '动效', 3),
 ]
