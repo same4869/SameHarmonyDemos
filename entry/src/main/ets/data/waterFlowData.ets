@@ -21,4 +21,5 @@ export const waterFlowData: SceneModuleInfo[] = [
   new SceneModuleInfo($r('app.media.marquee'), '跑马灯', 'marquee/MarqueeView', '动效', 3),
   new SceneModuleInfo($r('app.media.pull_to_refresh_news'), '下拉刷新上滑加载', 'pulltorefreshnews/PullToRefreshNews', '动效'),
   new SceneModuleInfo($r('app.media.page_turning_animation'), '翻页动效', 'pageturninganimation/PageTurningAnimation', '动效', 3),
+  new SceneModuleInfo($r('app.media.verify_code'), '验证码布局案例', 'verifycode/VerifyCodeView', 'UI布局', 3),
 ]

@@ -134,6 +134,10 @@
     {
       "name": "pageturninganimation",
       "srcPath": "./feature/pageturninganimation"
+    },
+    {
+      "name": "verifycode",
+      "srcPath": "./feature/verifycode"
     }
   ]
 }
