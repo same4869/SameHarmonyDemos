@@ -26,7 +26,8 @@
     "@same/applicationexception": "file:../feature/applicationexception",
     "@same/fitfordarkmode": "file:../feature/fitfordarkmode",
     "@same/marquee": "file:../feature/marquee",
-    "@same/pulltorefreshnews": "file:../feature/pulltorefreshnews"
+    "@same/pulltorefreshnews": "file:../feature/pulltorefreshnews",
+    "@same/pageturninganimation": "file:../feature/pageturninganimation"
   }
 }
 

@@ -130,6 +130,10 @@
     {
       "name": "pulltorefreshnews",
       "srcPath": "./feature/pulltorefreshnews"
+    },
+    {
+      "name": "pageturninganimation",
+      "srcPath": "./feature/pageturninganimation"
     }
   ]
 }
