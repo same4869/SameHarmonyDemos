@@ -6,4 +6,6 @@ export { FunctionDescription } from './src/main/ets/component/FunctionDescriptio
 
 export { BaseDataSource, CommonLazyDataSourceModel } from './src/main/ets/base/BaseDataSource'
 
+export { MockDataUtil } from './src/main/ets/utils/MockDataUtil';
+
 

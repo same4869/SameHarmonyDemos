@@ -126,6 +126,10 @@
     {
       "name": "marquee",
       "srcPath": "./feature/marquee"
+    },
+    {
+      "name": "pulltorefreshnews",
+      "srcPath": "./feature/pulltorefreshnews"
     }
   ]
 }

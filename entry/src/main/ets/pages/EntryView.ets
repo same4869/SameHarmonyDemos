@@ -20,6 +20,7 @@ import('@same/photopickandsave/src/main/ets/view/PictureManager');
 import('@same/applicationexception/src/main/ets/view/ApplicationExceptionView');
 import('@same/fitfordarkmode/src/main/ets/view/FitForDarkMode');
 import('@same/marquee/src/main/ets/view/MarqueeView');
+import('@same/pulltorefreshnews/src/main/ets/pages/PullToRefreshNews');
 
 @Entry
 @Component

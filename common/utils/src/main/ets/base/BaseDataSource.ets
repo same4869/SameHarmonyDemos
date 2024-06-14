@@ -83,4 +83,8 @@ export class CommonLazyDataSourceModel<T> extends BaseDataSource<T> {
     }
     this.notifyDataAdd(this.dataArray.length - 1)
   }
+
+  public clear(): void {
+    this.dataArray = [];
+  }
 }
