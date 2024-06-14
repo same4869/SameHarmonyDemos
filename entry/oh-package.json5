@@ -28,7 +28,8 @@
     "@same/marquee": "file:../feature/marquee",
     "@same/pulltorefreshnews": "file:../feature/pulltorefreshnews",
     "@same/pageturninganimation": "file:../feature/pageturninganimation",
-    "@same/verifycode": "file:../feature/verifycode"
+    "@same/verifycode": "file:../feature/verifycode",
+    "@same/vibrateeffect": "file:../feature/vibrateeffect"
   }
 }
 

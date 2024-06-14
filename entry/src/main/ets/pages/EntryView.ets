@@ -23,6 +23,7 @@ import('@same/marquee/src/main/ets/view/MarqueeView');
 import('@same/pulltorefreshnews/src/main/ets/pages/PullToRefreshNews');
 import('@same/pageturninganimation/src/main/ets/view/PageTurningAnimation');
 import('@same/verifycode/src/main/ets/view/VerifyCodeView');
+import('@same/vibrateeffect/src/main/ets/view/VibrateEffect');
 
 @Entry
 @Component
