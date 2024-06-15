@@ -1,19 +1,6 @@
 {
   "app": {
     "signingConfigs": [
-      {
-        "name": "default",
-        "type": "HarmonyOS",
-        "material": {
-          "certpath": "C:\\Users\\XWANG\\.ohos\\config\\default_SameHarmonyDemos_nljG0lNcVlEX5XjkDvxmGlTEj9O0rui6QIAUKBy-3Y8=.cer",
-          "storePassword": "0000001B608EC0EB363783AE0F0697B1AE512061E8AA8832AC3AFA57B46E0FDA5B471F28BDC3F4D2DB0D4D",
-          "keyAlias": "debugKey",
-          "keyPassword": "0000001BD69486235D6FA5ADFC56EFBF21A2F1C40CAFDFC6DEE1A3563DBECC825E0672C0FAAFCA8669CC2E",
-          "profile": "C:\\Users\\XWANG\\.ohos\\config\\default_SameHarmonyDemos_nljG0lNcVlEX5XjkDvxmGlTEj9O0rui6QIAUKBy-3Y8=.p7b",
-          "signAlg": "SHA256withECDSA",
-          "storeFile": "C:\\Users\\XWANG\\.ohos\\config\\default_SameHarmonyDemos_nljG0lNcVlEX5XjkDvxmGlTEj9O0rui6QIAUKBy-3Y8=.p12"
-        }
-      }
     ],
     "products": [
       {
@@ -21,7 +8,6 @@
         "signingConfig": "default",
         "targetSdkVersion": "4.1.0(11)",
         "compatibleSdkVersion": "4.1.0(11)",
-        "compileSdkVersion": "4.1.0(11)",
         "runtimeOS": "HarmonyOS",
       }
     ],
@@ -142,6 +128,10 @@
     {
       "name": "vibrateeffect",
       "srcPath": "./feature/vibrateeffect"
+    },
+    {
+      "name": "navigationbarchange",
+      "srcPath": "./feature/navigationbarchange",
     }
   ]
 }

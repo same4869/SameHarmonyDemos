@@ -24,6 +24,7 @@ import('@same/pulltorefreshnews/src/main/ets/pages/PullToRefreshNews');
 import('@same/pageturninganimation/src/main/ets/view/PageTurningAnimation');
 import('@same/verifycode/src/main/ets/view/VerifyCodeView');
 import('@same/vibrateeffect/src/main/ets/view/VibrateEffect');
+import('@same/navigationbarchange/src/main/ets/view/NavigationBarChange');
 
 @Entry
 @Component
