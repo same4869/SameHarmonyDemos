@@ -30,7 +30,8 @@
     "@same/pageturninganimation": "file:../feature/pageturninganimation",
     "@same/verifycode": "file:../feature/verifycode",
     "@same/vibrateeffect": "file:../feature/vibrateeffect",
-    "@same/navigationbarchange": "file:../feature/navigationbarchange"
+    "@same/navigationbarchange": "file:../feature/navigationbarchange",
+    "@same/routermodule": "file:../feature/routermodule"
   }
 }
 

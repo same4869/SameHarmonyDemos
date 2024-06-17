@@ -1,6 +1,9 @@
+import { AppRouter } from '@same/routermodule/Index';
+
 @Preview
 @Component
-@Entry({ routeName: 'pageturninganimation/PageTurningAnimation' })
+  // @Entry({ routeName: 'pageturninganimation/PageTurningAnimation' })
+@AppRouter({ name: 'pageturninganimation/PageTurningAnimation' })
 export struct PageTurningAnimation {
   // 父组件变量设置，使用@State做状态管理
   @State originalAngle: number = 0; // 初始角度
