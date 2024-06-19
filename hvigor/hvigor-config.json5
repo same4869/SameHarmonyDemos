@@ -4,6 +4,7 @@
   "modelVersion": "5.0.0",
   //  "modelVersion": "5.0.0",
   "dependencies": {
+    "@app/ets-generator": "file:../libs/autobuildrouter-1.0.0.tgz",
     "@ohos/hvigor-ohos-plugin": "4.1.2"
   },
   "execution": {
