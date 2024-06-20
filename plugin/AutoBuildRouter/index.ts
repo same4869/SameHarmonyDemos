@@ -1,1 +1,1 @@
-export { customPlugin } from './src/custom-plugin';
+export { etsGeneratorPlugin } from './src/custom-plugin';
