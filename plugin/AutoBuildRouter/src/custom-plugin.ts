@@ -93,7 +93,7 @@ export class EtsAnalyzer {
     //读取文件
     const sourceCode = readFileSync(this.sourcePath, "utf-8")
     //解析文件，生成节点树信息
-    const sourceFile = ts.creatSourceFile(this.sourcePath, sourceCode, ts.ScriptTarget.ES2021, false)
+    const sourceFile = ts.createSourceFile(this.sourcePath, sourceCode, ts.ScriptTarget.ES2021, false)
     //遍历节点信息
     ts.forEachChild(sourceFile, (node: ts.Node) => {
       //解析节点

@@ -2,13 +2,21 @@
   "name": "autobuildrouter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc && node lib/index.js",
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@ohos/hvigor": "^4.1.2"
+    "@ohos/hvigor": "^4.1.2",
+    "@ohos/hvigor-ohos-plugin": "^4.1.2",
+    "@types/node": "^20.12.12"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "typescript": "^5.4.5"
   }
 }
