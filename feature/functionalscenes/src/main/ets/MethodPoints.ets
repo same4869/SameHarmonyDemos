@@ -1,6 +1,8 @@
 import display from '@ohos.display'
 import { SceneModuleInfo } from './model/SceneModuleInfo';
 import { router } from '@kit.ArkUI';
+import { MLog } from '@same/common/Index';
+import { DynamicsRouter } from '@ohos/dynamicsRouter/Index';
 
 @Reusable
 @Component
@@ -95,12 +97,20 @@ export struct MethodPoints {
       if (this.listData !== undefined) {
         // 点击瀑布流Item时，根据点击的模块信息，将页面放入路由栈
         // DynamicsRouter.pushUri(this.listData.appUri,this.listData.param);
-        router.pushNamedRoute({
-          name: this.listData.appUri,
-          params: this.listData.param
-        }).catch((e: Error) => {
-          // MLog.debug('router push error' + JSON.stringify(e))
-        })
+
+        MLog.debug(`click appuri:${this.listData.appUri} params:${this.listData.param}`)
+
+        if (this.listData.appUri.endsWith("PageTurningAnimation")) {
+          // 点击瀑布流Item时，根据点击的模块信息，将页面放入路由栈
+          DynamicsRouter.pushUri(this.listData.appUri,this.listData.param);
+        } else {
+          router.pushNamedRoute({
+            name: this.listData.appUri,
+            params: this.listData.param
+          }).catch((e: Error) => {
+            // MLog.debug('router push error' + JSON.stringify(e))
+          })
+        }
       }
     })
   }

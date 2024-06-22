@@ -6,6 +6,14 @@
     {
       "name": "release",
       "arkOptions": {
+        // TODO：知识点：动态路由中使用了动态import变量表达式的能力，需要在这里配置模块名，和oh-package.json5中dependencies下面配置的模块名相同。
+        "runtimeOnly": {
+          "sources" : [
+          ],
+          "packages": [
+            "@same/pageturninganimation"
+          ]
+        },
         "obfuscation": {
           "ruleOptions": {
             "enable": true,

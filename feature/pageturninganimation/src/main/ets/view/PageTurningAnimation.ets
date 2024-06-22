@@ -1,4 +1,4 @@
-import { AppRouter } from '@same/routermodule/Index';
+import { AppRouter } from '@ohos/dynamicsRouter/Index';
 
 @Preview
 @Component

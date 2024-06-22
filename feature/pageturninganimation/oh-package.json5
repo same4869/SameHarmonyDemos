@@ -6,6 +6,6 @@
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
-    "@same/routermodule": "file:../routermodule"
+    "@ohos/dynamicsRouter": "file:../routermodule"
   }
 }
