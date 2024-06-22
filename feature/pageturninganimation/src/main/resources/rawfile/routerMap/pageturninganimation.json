@@ -1,0 +1,10 @@
+{
+  "routerMap": [
+    {
+      "name": "pageturninganimation/PageTurningAnimation",
+      "pageModule": "pageturninganimation",
+      "pageSourceFile": "src/main/ets/generated/RouterBuilder.ets",
+      "registerFunction": "pageTurningAnimationRegister"
+    }
+  ]
+}
