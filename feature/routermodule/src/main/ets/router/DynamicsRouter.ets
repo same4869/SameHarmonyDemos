@@ -2,6 +2,7 @@ import { MLog } from '@same/common/Index'
 import { AppRouterInfo, HOME_PAGE, RouterConfig } from '../model/AppRouterInfo'
 import { RouterLoader } from '../util/RouterLoader'
 import { BusinessError } from '@kit.BasicServicesKit'
+import { Interceptor } from '../interceptor/Interceptor'
 
 export class DynamicsRouter {
   static config: RouterConfig
@@ -27,6 +28,16 @@ export class DynamicsRouter {
     DynamicsRouter.builderMap.set(builderName, builder)
   }
 
+  // 通过名称获取builder
+  public static getBuilder(builderName: string): WrappedBuilder<[object]> {
+    const builder = DynamicsRouter.builderMap.get(builderName);
+    if (!builder) {
+      const MSG = "not found builder";
+      MLog.info(MSG + builderName);
+    }
+    return builder as WrappedBuilder<[object]>;
+  }
+
   // 根据路由信息跳转到对应的页面
   public static pushUri(name: string, param?: ESObject) {
     //如果路由表中没有改路由信息，直接中断
@@ -44,7 +55,9 @@ export class DynamicsRouter {
           //通过路由注册方法注册路由
           module[routerInfo.registerFunction!](routerInfo)
           // TODO：知识点：在路由模块的动态路由.pushUri()中调用拦截方法，此处必须等待动态路由加载完成后再进行拦截，否则页面加载不成功，导致无法注册拦截的函数，出现首次拦截失效。
-          // Interceptor
+          if (Interceptor.interceptor(name, param)) {
+            return;
+          }
           // 页面跳转
           DynamicsRouter.navPathStack.pushPath({ name: name, param: param })
         })
@@ -53,7 +66,9 @@ export class DynamicsRouter {
         })
     } else {
       // TODO：知识点：除首次跳转后，之后的每次跳转都需进行路由拦截。
-      // Interceptor
+      if (Interceptor.interceptor(name, param)) {
+        return;
+      }
       //如果已经跳转果，则直接跳转
       DynamicsRouter.navPathStack.pushPath({ name: name, param: param })
       DynamicsRouter.pushRouterStack(routerInfo)
