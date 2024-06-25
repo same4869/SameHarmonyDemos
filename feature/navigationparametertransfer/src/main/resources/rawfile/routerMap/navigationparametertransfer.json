@@ -1,0 +1,10 @@
+{
+  "routerMap": [
+    {
+      "name": "navigationparametertransfer/NavigationParameterTransferView",
+      "pageModule": "navigationparametertransfer",
+      "pageSourceFile": "src/main/ets/generated/RouterBuilder.ets",
+      "registerFunction": "navigationParameterTransferViewRegister"
+    }
+  ]
+}

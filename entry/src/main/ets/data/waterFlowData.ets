@@ -1,4 +1,8 @@
 import { SceneModuleInfo } from '@same/functionalscenes/src/main/ets/model/SceneModuleInfo'
+import { UserBookingInfo } from '@same/navigationparametertransfer';
+
+const userBooking: UserBookingInfo = new UserBookingInfo('张山', '332212199507270611', '6月8日');
+const strUserBooking: string = JSON.stringify(userBooking);
 
 export const waterFlowData: SceneModuleInfo[] = [
   new SceneModuleInfo($r('app.media.address_exchange'), '地址交换动画', 'addressexchange/AddressExchangeView', '动效', 2),
@@ -24,4 +28,5 @@ export const waterFlowData: SceneModuleInfo[] = [
   new SceneModuleInfo($r('app.media.verify_code'), '验证码布局案例', 'verifycode/VerifyCodeView', 'UI布局', 3),
   new SceneModuleInfo($r('app.media.vibrate_effect'), '使用弹簧曲线实现抖动动画及手机振动效果案例', 'vibrateeffect/VibrateEffectView', '动效', 1),
   new SceneModuleInfo($r('app.media.navigation_bar_change'), '状态栏显隐变化', 'navigationbarchange/NavigationBarChangeView', '动效'),
+  new SceneModuleInfo($r('app.media.navigationParameterTransfer'), 'Navigation页面跳转对象传递', 'navigationparametertransfer/NavigationParameterTransferView', '其他', 1, strUserBooking),
 ]

@@ -31,7 +31,8 @@
     "@same/verifycode": "file:../feature/verifycode",
     "@same/vibrateeffect": "file:../feature/vibrateeffect",
     "@same/navigationbarchange": "file:../feature/navigationbarchange",
-    "@same/routermodule": "file:../feature/routermodule"
+    "@same/routermodule": "file:../feature/routermodule",
+    "@same/navigationparametertransfer": "file:../feature/navigationparametertransfer"
   }
 }
 

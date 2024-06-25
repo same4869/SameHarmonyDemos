@@ -136,6 +136,10 @@
     {
       "name": "routermodule",
       "srcPath": "./feature/routermodule"
+    },
+    {
+      "name": "navigationparametertransfer",
+      "srcPath": "./feature/navigationparametertransfer",
     }
   ]
 }

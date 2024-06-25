@@ -8,7 +8,8 @@
         "sources": [
         ],
         "packages": [
-          "@same/pageturninganimation"
+          "@same/pageturninganimation",
+          "@same/navigationparametertransfer"
         ]
       }
     }

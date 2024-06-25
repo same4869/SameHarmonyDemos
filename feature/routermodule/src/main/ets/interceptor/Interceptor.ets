@@ -51,8 +51,8 @@ export class Interceptor {
       if (Interceptor.list[i].executeFunction(appUri, param)) {
         return true
       }
-      // 否则就放行
-      return false;
     }
+    // 否则就放行
+    return false;
   }
 }
