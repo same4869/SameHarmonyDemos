@@ -29,4 +29,5 @@ export const waterFlowData: SceneModuleInfo[] = [
   new SceneModuleInfo($r('app.media.vibrate_effect'), '使用弹簧曲线实现抖动动画及手机振动效果案例', 'vibrateeffect/VibrateEffectView', '动效', 1),
   new SceneModuleInfo($r('app.media.navigation_bar_change'), '状态栏显隐变化', 'navigationbarchange/NavigationBarChangeView', '动效'),
   new SceneModuleInfo($r('app.media.navigationParameterTransfer'), 'Navigation页面跳转对象传递', 'navigationparametertransfer/NavigationParameterTransferView', '其他', 1, strUserBooking),
+  new SceneModuleInfo($r('app.media.media_fullscreen'), '视频全屏切换', 'mediafullscreen/MediaFullScreen', '动效'),
 ]

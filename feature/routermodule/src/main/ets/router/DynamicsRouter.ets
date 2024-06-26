@@ -76,6 +76,27 @@ export class DynamicsRouter {
 
   }
 
+  // 通过获取页面栈并pop
+  public static popAppRouter(): void {
+    // pop前记录的来源页为当前栈顶
+    const referrerModel: AppRouterInfo = DynamicsRouter.appRouterStack[DynamicsRouter.appRouterStack.length - 1];
+    DynamicsRouter.referrer[0] = referrerModel.pageModule;
+    DynamicsRouter.referrer[1] = referrerModel.name;
+    MLog.info(`From DynamicsRouter.routerStack pop preview module name is + ${DynamicsRouter.referrer[0]}, path is ${DynamicsRouter.referrer[1]}`);
+    if (DynamicsRouter.appRouterStack.length > 1) {
+      DynamicsRouter.appRouterStack.pop();
+    } else {
+      MLog.info("DynamicsRouter.routerStack is only Home.");
+    }
+    // 查找到对应的路由栈进行pop
+    DynamicsRouter.getNavPathStack().pop();
+  }
+
+  // 通过名称获取router
+  private static getNavPathStack(): NavPathStack {
+    return DynamicsRouter.navPathStack;
+  }
+
   // 存储引用信息
   private static pushRouterStack(routerInfo: AppRouterInfo) {
     DynamicsRouter.appRouterStack.push(routerInfo);
