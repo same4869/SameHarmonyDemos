@@ -9,7 +9,8 @@
         ],
         "packages": [
           "@same/pageturninganimation",
-          "@same/navigationparametertransfer"
+          "@same/navigationparametertransfer",
+          "@same/mediafullscreen",
         ]
       }
     }

@@ -1,0 +1,10 @@
+{
+  "routerMap": [
+    {
+      "name": "mediafullscreen/MediaFullScreen",
+      "pageModule": "mediafullscreen",
+      "pageSourceFile": "src/main/ets/generated/RouterBuilder.ets",
+      "registerFunction": "mediaFullScreenRegister"
+    }
+  ]
+}

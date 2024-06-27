@@ -32,7 +32,8 @@
     "@same/vibrateeffect": "file:../feature/vibrateeffect",
     "@same/navigationbarchange": "file:../feature/navigationbarchange",
     "@same/routermodule": "file:../feature/routermodule",
-    "@same/navigationparametertransfer": "file:../feature/navigationparametertransfer"
+    "@same/navigationparametertransfer": "file:../feature/navigationparametertransfer",
+    "@same/mediafullscreen": "file:../feature/mediafullscreen",
   }
 }
 

@@ -10,7 +10,7 @@ export class MockDataUtil {
 }
 
 class JsonObjType <T> {
-  newsList: Array<T> = [];
+  list: Array<T> = [];
 }
 
 class JsonObject {
@@ -31,7 +31,7 @@ class JsonObject {
     const textDecoderResult = textDecoder.decodeWithStream(new Uint8Array(value.buffer));
     const jsonObj: JsonObjType<T> = JSON.parse(textDecoderResult) as JsonObjType<T>;
     const dataModelBuckets: Array<T> = [];
-    const dataModelObj = jsonObj.newsList;
+    const dataModelObj = jsonObj.list;
     for (let i = 0; i < dataModelObj.length; i++) {
       dataModelBuckets.push(dataModelObj[i]);
     }

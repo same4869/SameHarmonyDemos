@@ -14,13 +14,17 @@ export class SceneModuleInfo {
   ratingNumber: number;
   // 分类
   category: string;
+  // 用否用自定义路由跳转
+  isUseNewRouter: boolean | undefined;
 
-  constructor(imageSrc: ResourceStr, name: string, appUri: string, category: string, ratingNumber?: number, param?: string) {
+  constructor(imageSrc: ResourceStr, name: string, appUri: string, category: string, ratingNumber?: number,
+    param?: string, isUseNewRouter?: boolean) {
     this.imageSrc = imageSrc;
     this.name = name;
     this.appUri = appUri;
     this.param = param === undefined ? '' : param;
     this.ratingNumber = ratingNumber === undefined ? 2 : ratingNumber;
     this.category = category;
+    this.isUseNewRouter = isUseNewRouter
   }
 }
