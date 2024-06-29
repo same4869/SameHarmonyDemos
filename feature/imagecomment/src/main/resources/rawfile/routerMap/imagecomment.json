@@ -1,3 +1,10 @@
 {
-  "routerMap": []
+  "routerMap": [
+    {
+      "name": "imagecomment/ImageCommentView",
+      "pageModule": "imagecomment",
+      "pageSourceFile": "src/main/ets/generated/RouterBuilder.ets",
+      "registerFunction": "imageCommentViewRegister"
+    }
+  ]
 }

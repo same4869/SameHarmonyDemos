@@ -4,6 +4,7 @@
  * @Description:
  **/
 import { Comment } from '../model/CommentModel';
+import { ImageListView } from './ImageListView';
 
 @Component
 export struct CommentItemView {
@@ -13,11 +14,34 @@ export struct CommentItemView {
   build() {
     Column() {
       Row() {
+        Image(this.comment.avatar)
+          .width(50)
+          .height(50)
+          .borderRadius(25)
 
+        Column() {
+          Text(this.comment.name)
+          Text(this.comment.time)
+        }
+        .alignItems(HorizontalAlign.Start)
+        .margin({
+          left: 5
+        })
       }
       .width("100%")
 
-      Text()
+      Text(this.comment.comment)
+        .width("100%")
+        .margin({
+          top: 5
+        })
+
+      if (this.comment.images.length > 0) {
+        ImageListView({ selectedImages: this.comment.images })
+          .margin({
+            top: 5
+          })
+      }
     }
     .width("100%")
     .padding(10)

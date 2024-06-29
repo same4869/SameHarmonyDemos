@@ -60,7 +60,7 @@ export class BaseDataSource<T> implements IDataSource {
 }
 
 export class CommonLazyDataSourceModel<T> extends BaseDataSource<T> {
-  private dataArray: T[] = []
+  protected dataArray: T[] = []
 
   public totalCount(): number {
     return this.dataArray.length

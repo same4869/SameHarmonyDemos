@@ -34,6 +34,7 @@
     "@same/routermodule": "file:../feature/routermodule",
     "@same/navigationparametertransfer": "file:../feature/navigationparametertransfer",
     "@same/mediafullscreen": "file:../feature/mediafullscreen",
+    "@same/imagecomment": "file:../feature/imagecomment",
   }
 }
 

@@ -29,4 +29,9 @@ export class Comment {
 }
 
 export class CommentData extends CommonLazyDataSourceModel<Comment> {
+  addDataFirst(data: Comment): void {
+    this.dataArray.unshift(data);
+    // 在数组头部添加数据
+    this.notifyDataAdd(0);
+  }
 }

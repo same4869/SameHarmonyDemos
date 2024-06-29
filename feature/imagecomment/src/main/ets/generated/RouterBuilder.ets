@@ -15,4 +15,14 @@
 
 // auto-generated
 import { DynamicsRouter, AppRouterInfo } from '@ohos/dynamicsRouter/Index';
+import { ImageCommentView } from '../view/ImageCommentView'
+
+@Builder
+function imageCommentViewBuilder() {
+  ImageCommentView();
+}
+
+export function imageCommentViewRegister(routerInfo: AppRouterInfo) {
+  DynamicsRouter.registerAppRouterPage(routerInfo, wrapBuilder(imageCommentViewBuilder));
+}
 

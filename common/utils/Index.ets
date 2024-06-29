@@ -10,4 +10,6 @@ export { MockDataUtil } from './src/main/ets/utils/MockDataUtil';
 
 export { MToast } from './src/main/ets/utils/MToast'
 
+export { cameraCapture } from './src/main/ets/utils/CameraUtils'
+
 
