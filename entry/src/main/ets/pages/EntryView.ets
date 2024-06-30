@@ -32,6 +32,7 @@ struct EntryView {
   @State listData: SceneModuleInfo[] = waterFlowData;
   // Navigation路由栈,控制页面跳转
   @Provide('pageStack') pageStack: NavPathStack = DynamicsRouter.navPathStack;
+  @Provide('isFullScreen') isFullScreen: boolean = false;
   @State navigationMode: number = NavigationMode.Stack;
 
   build() {

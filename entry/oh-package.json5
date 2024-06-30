@@ -35,6 +35,7 @@
     "@same/navigationparametertransfer": "file:../feature/navigationparametertransfer",
     "@same/mediafullscreen": "file:../feature/mediafullscreen",
     "@same/imagecomment": "file:../feature/imagecomment",
+    "@same/foldablescreencases": "file:../feature/foldablescreencases",
   }
 }
 

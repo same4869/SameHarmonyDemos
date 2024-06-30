@@ -45,4 +45,6 @@ export const waterFlowData: SceneModuleInfo[] = [
     0, "", true),
   new SceneModuleInfo($r('app.media.image_comment'), '发布图片评论', 'imagecomment/ImageCommentView', 'UI布局', 0, "",
     true),
+  new SceneModuleInfo($r('app.media.music_player'), '折叠屏适配音乐播放器', 'foldablescreencases/MusicPlayerPage',
+    '动效', 3, "", true),
 ]

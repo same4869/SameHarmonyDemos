@@ -12,6 +12,7 @@
           "@same/navigationparametertransfer",
           "@same/mediafullscreen",
           "@same/imagecomment",
+          "@same/foldablescreencases"
         ]
       }
     }
