@@ -34,6 +34,8 @@ export default class EntryAbility extends UIAbility {
 
     // 获取当前的颜色模式并保存
     AppStorage.setOrCreate('currentColorMode', this.context.config.colorMode);
+    // 保存windowStage供fitfordarkmode的har包中FitForDarkPage.ets中setStatusBar方法修改状态栏颜色。
+    AppStorage.setOrCreate('windowStage', windowStage);
   }
 
   onWindowStageDestroy(): void {

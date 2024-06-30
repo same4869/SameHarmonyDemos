@@ -2,6 +2,7 @@ import { display, window } from '@kit.ArkUI'
 import { AppRouter } from '@ohos/dynamicsRouter';
 import { MLog } from '@same/common';
 import CommonConstants from '../common/CommonConstants'
+import { MusicPlayerCtrlComp } from '../components/MusicPlayerCtrlComp';
 import { MusicPlayerInfoComp } from '../components/MusicPlayerInfoComp';
 import { MusicModel } from '../model/MusicModel';
 import WindowModel from '../model/WindowModel';
@@ -66,12 +67,20 @@ export struct MusicPlayerPage {
     this.viewModel.musicModel = this.musicModel;
   }
 
+  aboutToDisappear(): void {
+    // 关闭页面沉浸式展示
+    this.windowModel.setMainWindowImmersive(false);
+    // 释放vm实例持有的资源
+    this.viewModel.release();
+  }
+
   build() {
     if (display.isFoldable()) {
       // TODO：知识点：FolderStack继承于Stack控件，通过upperItems字段识别指定id的组件，自动避让折叠屏折痕区后移到上半屏
       FolderStack({ upperItems: [CommonConstants.FOLDER_STACK_UP_COMP_ID] }) {
         MusicPlayerInfoComp({ musicModel: this.musicModel, curFoldStatus: this.curFoldStatus })
           .id(CommonConstants.FOLDER_STACK_UP_COMP_ID)
+        MusicPlayerCtrlComp()
       }
       // TODO：知识点：是否使用默认动效
       .enableAnimation(false)
@@ -83,6 +92,7 @@ export struct MusicPlayerPage {
     } else {
       Stack() {
         MusicPlayerInfoComp({ musicModel: this.musicModel })
+        MusicPlayerCtrlComp()
       }
       .stackStyle()
       .alignContent(Alignment.Bottom)
