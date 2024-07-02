@@ -152,6 +152,10 @@
     {
       "name": "foldablescreencases",
       "srcPath": "./feature/foldablescreencases",
+    },
+    {
+      "name": "decompressfile",
+      "srcPath": "./feature/decompressfile",
     }
   ]
 }
