@@ -49,4 +49,7 @@ export const waterFlowData: SceneModuleInfo[] = [
     '动效', 3, "", true),
   new SceneModuleInfo($r('app.media.decompress_file'), 'Worker子线程中解压文件', 'decompressfile/DecompressFileView',
     '其他', 0, "", true),
+  new SceneModuleInfo($r('app.media.custom_view'), '自定义视图实现Tab效果', 'customview/CustomView', 'UI布局', 0, "",
+    true),
+
 ]

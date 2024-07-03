@@ -36,7 +36,8 @@
     "@same/mediafullscreen": "file:../feature/mediafullscreen",
     "@same/imagecomment": "file:../feature/imagecomment",
     "@same/foldablescreencases": "file:../feature/foldablescreencases",
-    "@same/decompressfile": "file:../feature/decompressfile"
+    "@same/decompressfile": "file:../feature/decompressfile",
+    "@same/customview": "file:../feature/customview"
   }
 }
 

@@ -13,7 +13,8 @@
           "@same/mediafullscreen",
           "@same/imagecomment",
           "@same/foldablescreencases",
-          "@same/decompressfile"
+          "@same/decompressfile",
+          "@same/customview"
         ]
       }
     }

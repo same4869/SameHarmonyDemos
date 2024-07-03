@@ -156,6 +156,10 @@
     {
       "name": "decompressfile",
       "srcPath": "./feature/decompressfile",
+    },
+    {
+      "name": "customview",
+      "srcPath": "./feature/customview",
     }
   ]
 }
