@@ -47,4 +47,6 @@ export const waterFlowData: SceneModuleInfo[] = [
     true),
   new SceneModuleInfo($r('app.media.music_player'), '折叠屏适配音乐播放器', 'foldablescreencases/MusicPlayerPage',
     '动效', 3, "", true),
+  new SceneModuleInfo($r('app.media.decompress_file'), 'Worker子线程中解压文件', 'decompressfile/DecompressFileView',
+    '其他', 0, "", true),
 ]
