@@ -1,7 +1,9 @@
 import { FunctionalScenes } from "@same/functionalscenes/src/main/ets/FunctionalScenes"
 import { SceneModuleInfo } from '@same/functionalscenes/src/main/ets/model/SceneModuleInfo';
 import { DynamicsRouter } from '@same/routermodule/Index';
+import { MLog } from '@same/utils';
 import { waterFlowData } from '../data/waterFlowData';
+import util from '@ohos.util';
 
 import('@same/addressexchange/src/main/ets/view/AddressExchangeView');
 import('@same/customtabbar/src/main/ets/view/TabView');
@@ -26,6 +28,21 @@ import('@same/verifycode/src/main/ets/view/VerifyCodeView');
 import('@same/vibrateeffect/src/main/ets/view/VibrateEffect');
 import('@same/navigationbarchange/src/main/ets/view/NavigationBarChange');
 
+// 插入执行前后打印时间, 将插入动作封装成一个接口
+function addTimePrinter(targetClass: Object, methodName: string, isStatic: boolean) {
+  let t1 = 0;
+  let t2 = 0;
+  util.Aspect.addBefore(targetClass, methodName, isStatic, () => {
+    t1 = new Date().getTime();
+    MLog.debug("aspect t1 = " + t1.toString());
+  });
+  util.Aspect.addAfter(targetClass, methodName, isStatic, () => {
+    t2 = new Date().getTime();
+    MLog.debug("aspect t2 = " + t2.toString());
+    MLog.debug("aspect t2---t1 = " + (t2 - t1).toString());
+  });
+}
+
 @Entry
 @Component
 struct EntryView {
@@ -34,6 +51,24 @@ struct EntryView {
   @Provide('pageStack') pageStack: NavPathStack = DynamicsRouter.navPathStack;
   @Provide('isFullScreen') isFullScreen: boolean = false;
   @State navigationMode: number = NavigationMode.Stack;
+
+  testTime() {
+    let a: number = 100000
+    for (let index = 0; index < 999999; index++) {
+      a /= 2
+      a *= 2
+    }
+    MLog.debug("aspect testTime")
+  }
+
+  // aboutToAppear() {
+  //   // 给Test的doSomething实例方法添加打印执行时间的逻辑
+  //   // addTimePrinter(EntryView, 'testTime', false);
+  //   util.Aspect.replace(EntryView, 'testTime', false, (instance: EntryView, arg: string) => {
+  //     MLog.debug("aspect replace testTime method impl")
+  //   })
+  //   this.testTime()
+  // }
 
   build() {
     Stack() {
