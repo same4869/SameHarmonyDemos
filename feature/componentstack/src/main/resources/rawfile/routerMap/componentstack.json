@@ -1,0 +1,10 @@
+{
+  "routerMap": [
+    {
+      "name": "componentstack/ComponentStack",
+      "pageModule": "componentstack",
+      "pageSourceFile": "src/main/ets/generated/RouterBuilder.ets",
+      "registerFunction": "componentStackRegister"
+    }
+  ]
+}

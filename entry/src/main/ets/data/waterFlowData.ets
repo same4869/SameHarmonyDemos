@@ -51,5 +51,6 @@ export const waterFlowData: SceneModuleInfo[] = [
     '其他', 0, "", true),
   new SceneModuleInfo($r('app.media.custom_view'), '自定义视图实现Tab效果', 'customview/CustomView', 'UI布局', 0, "",
     true),
-
+  new SceneModuleInfo($r('app.media.component_stack'), '组件堆叠', 'componentstack/ComponentStack', 'UI布局', 0, "",
+    true),
 ]

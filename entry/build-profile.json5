@@ -14,7 +14,8 @@
           "@same/imagecomment",
           "@same/foldablescreencases",
           "@same/decompressfile",
-          "@same/customview"
+          "@same/customview",
+          "@same/componentstack"
         ]
       }
     }

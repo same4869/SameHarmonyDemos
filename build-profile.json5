@@ -160,6 +160,10 @@
     {
       "name": "customview",
       "srcPath": "./feature/customview",
+    },
+    {
+      "name": "componentstack",
+      "srcPath": "./feature/componentstack",
     }
   ]
 }

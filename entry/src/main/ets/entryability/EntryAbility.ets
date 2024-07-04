@@ -1,8 +1,9 @@
 import { AbilityConstant, Configuration, UIAbility, Want } from '@kit.AbilityKit';
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { window } from '@kit.ArkUI';
+import { display, window } from '@kit.ArkUI';
 import { eventSubscription } from '@same/applicationexception/Index';
 import { DynamicsRouter } from '@same/routermodule/Index';
+import { BusinessError } from '@kit.BasicServicesKit';
 
 export default class EntryAbility extends UIAbility {
   onCreate(want: Want, launchParam: AbilityConstant.LaunchParam): void {
@@ -31,6 +32,48 @@ export default class EntryAbility extends UIAbility {
       }
       hilog.info(0x0000, 'testTag', 'Succeeded in loading the content.');
     });
+
+    let windowClass: window.Window | undefined = undefined
+    window.getLastWindow(this.context, (err: BusinessError, data) => {
+      if (err.code) {
+        console.error('Failed to obtain top window. Cause:' + JSON.stringify(err));
+        return;
+      }
+      windowClass = data;
+      console.info('Success to obtain top window. Cause:' + JSON.stringify(data));
+      // 窗口内容规避的顶部状态栏高度
+      let statusHeight = 0;
+      // 窗口内容规避的底部安全区高度
+      let bottomHeight = 0;
+      // 获取窗口内容规避的区域在componentstack里使用
+      let type = window.AvoidAreaType.TYPE_SYSTEM;
+      try {
+        let avoidArea = windowClass.getWindowAvoidArea(type);
+        console.info('Succeeded to obtain the area. Cause:' + JSON.stringify(avoidArea));
+        statusHeight = avoidArea.topRect.height;
+        bottomHeight = avoidArea.bottomRect.height
+      } catch (exception) {
+        console.error('Failed to obtain the area. Cause:' + JSON.stringify(exception));
+      }
+      // 存储窗口内容规避的状态栏高度
+      AppStorage.setOrCreate('statusHeight', statusHeight);
+      // 存储窗口内容规避的底部安全区高度
+      AppStorage.setOrCreate('bottomHeight', bottomHeight);
+
+      // 当前窗口高度
+      let screenHeight = 0;
+      // 获取窗口区域在componentstack里使用
+      let displayClass: display.Display | null = null;
+      try {
+        displayClass = display.getDefaultDisplaySync();
+        screenHeight = displayClass.height;
+      } catch (exception) {
+        console.error('Failed to obtain the default display object. Code: ' + JSON.stringify(exception));
+      }
+      console.error('Succeeded to obtain the default display object. Code: ' + JSON.stringify(displayClass));
+      // 存储当前窗口高度
+      AppStorage.setOrCreate('screenHeight', screenHeight);
+    })
 
     // 获取当前的颜色模式并保存
     AppStorage.setOrCreate('currentColorMode', this.context.config.colorMode);
