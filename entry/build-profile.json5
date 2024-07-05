@@ -15,7 +15,8 @@
           "@same/foldablescreencases",
           "@same/decompressfile",
           "@same/customview",
-          "@same/componentstack"
+          "@same/componentstack",
+          "@same/customcalendarpickerdialog"
         ]
       }
     }

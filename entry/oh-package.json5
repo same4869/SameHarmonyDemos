@@ -38,7 +38,8 @@
     "@same/foldablescreencases": "file:../feature/foldablescreencases",
     "@same/decompressfile": "file:../feature/decompressfile",
     "@same/customview": "file:../feature/customview",
-    "@same/componentstack": "file:../feature/componentstack"
+    "@same/componentstack": "file:../feature/componentstack",
+    "@same/customcalendarpickerdialog": "file:../feature/customcalendarpickerdialog"
   }
 }
 

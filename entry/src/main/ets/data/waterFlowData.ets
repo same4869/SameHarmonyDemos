@@ -53,4 +53,7 @@ export const waterFlowData: SceneModuleInfo[] = [
     true),
   new SceneModuleInfo($r('app.media.component_stack'), '组件堆叠', 'componentstack/ComponentStack', 'UI布局', 0, "",
     true),
+  new SceneModuleInfo($r('app.media.custom_calendar_picker_dialog'), '自定义日历选择器',
+    'customcalendarpickerdialog/CalendarView', 'UI布局', 0, "",
+    true),
 ]

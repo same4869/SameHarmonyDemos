@@ -1,0 +1,10 @@
+{
+  "routerMap": [
+    {
+      "name": "customcalendarpickerdialog/CalendarView",
+      "pageModule": "customcalendarpickerdialog",
+      "pageSourceFile": "src/main/ets/generated/RouterBuilder.ets",
+      "registerFunction": "calendarViewRegister"
+    }
+  ]
+}

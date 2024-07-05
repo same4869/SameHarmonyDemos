@@ -164,6 +164,10 @@
     {
       "name": "componentstack",
       "srcPath": "./feature/componentstack",
+    },
+    {
+      "name": "customcalendarpickerdialog",
+      "srcPath": "./feature/customcalendarpickerdialog",
     }
   ]
 }
