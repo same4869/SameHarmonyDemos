@@ -4,6 +4,8 @@ import { display, window } from '@kit.ArkUI';
 import { eventSubscription } from '@same/applicationexception/Index';
 import { DynamicsRouter } from '@same/routermodule/Index';
 import { BusinessError } from '@kit.BasicServicesKit';
+import { DataManager } from '@same/customcalendarpickerdialog/src/main/ets/utils/DataManager';
+import { DateModel } from '@same/customcalendarpickerdialog/src/main/ets/model/DateModel';
 
 export default class EntryAbility extends UIAbility {
   onCreate(want: Want, launchParam: AbilityConstant.LaunchParam): void {
@@ -79,6 +81,9 @@ export default class EntryAbility extends UIAbility {
     AppStorage.setOrCreate('currentColorMode', this.context.config.colorMode);
     // 保存windowStage供fitfordarkmode的har包中FitForDarkPage.ets中setStatusBar方法修改状态栏颜色。
     AppStorage.setOrCreate('windowStage', windowStage);
+
+    // 获取Preferences实例
+    this.getPreferencesData();
   }
 
   onWindowStageDestroy(): void {
@@ -99,5 +104,13 @@ export default class EntryAbility extends UIAbility {
   onConfigurationUpdate(newConfig: Configuration): void {
     // 获取最新的变更颜色并更新到AppStorage
     AppStorage.setOrCreate('currentColorMode', newConfig.colorMode);
+  }
+
+  // 获取Preferences实例
+  getPreferencesData() {
+    DataManager.getDate(this.context, (dateModel: DateModel) => {
+      // TODO: 知识点：应用级变量的状态管理
+      AppStorage.setOrCreate<DateModel>('selectedDate', dateModel);
+    })
   }
 }

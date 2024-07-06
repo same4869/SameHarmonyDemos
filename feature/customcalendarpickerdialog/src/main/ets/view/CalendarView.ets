@@ -6,6 +6,8 @@
 import { AppRouter } from '@ohos/dynamicsRouter';
 import { MToast } from '@same/common';
 import { CustomCalendarPickerDialog } from './CustomCalendarPickerDialog';
+import { DateModel } from '../model/DateModel';
+import { getRealTimeDate } from '../utils/GetData';
 
 /**
  * 自定义日历选择器
@@ -20,11 +22,30 @@ const ELEMENTS_MARGIN_M = 8;
 @AppRouter({ name: "customcalendarpickerdialog/CalendarView" })
 @Component
 export struct CalendarView {
+  private week: string[] = ['日', '一', '二', '三', '四', '五', '六']; // 设置日历周，从周日开始
+  @State currentMonth: number = 1; // 当前月份
+  @State currentDay: number = 1; // 当前日
+  @State currentYear: number = 1; // 当前年分
+  @StorageLink('selectedDate') dateModel: DateModel = new DateModel(0, 0, 0, 0); // 初始化dateModel数据
+
   dialogController: CustomDialogController = new CustomDialogController({
-    builder: CustomCalendarPickerDialog({}),
+    builder: CustomCalendarPickerDialog({
+      currentMonth: this.currentMonth,
+      currentDay: this.currentDay,
+      currentYear: this.currentYear,
+      cancel: this.onCancel
+    }),
     alignment: DialogAlignment.Bottom,
     customStyle: true
   })
+
+  // 获取当前日期
+  aboutToAppear(): void {
+    let dateModel: DateModel = getRealTimeDate(); // 获取当前年月日信息
+    this.currentMonth = dateModel.month; // 获取当前月份
+    this.currentDay = dateModel.day; // 获取当前日
+    this.currentYear = dateModel.year; // 获取当前年份
+  }
 
   // 点击遮障层退出时的回调
   onCancel() {
@@ -57,9 +78,9 @@ export struct CalendarView {
       .width("100%")
 
       Row({ space: ELEMENTS_MARGIN_M }) {
-        Text("1月1日")
+        Text(`${this.dateModel.month}月${this.dateModel.day}日`)
           .fontSize(20)
-        Text("星期五")
+        Text(`星期${this.week[this.dateModel.week]}`)
           .fontSize(14)
       }.justifyContent(FlexAlign.Start)
       .width("100%")
