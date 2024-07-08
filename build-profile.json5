@@ -172,6 +172,10 @@
     {
       "name": "waterripples",
       "srcPath": "./feature/waterripples",
+    },
+    {
+      "name": "swipersmoothvariation",
+      "srcPath": "./feature/swipersmoothvariation",
     }
   ]
 }

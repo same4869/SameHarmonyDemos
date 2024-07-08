@@ -17,7 +17,8 @@
           "@same/customview",
           "@same/componentstack",
           "@same/customcalendarpickerdialog",
-          "@same/waterripples"
+          "@same/waterripples",
+          "@same/swipersmoothvariation"
         ]
       }
     }
