@@ -168,6 +168,10 @@
     {
       "name": "customcalendarpickerdialog",
       "srcPath": "./feature/customcalendarpickerdialog",
+    },
+    {
+      "name": "waterripples",
+      "srcPath": "./feature/waterripples",
     }
   ]
 }

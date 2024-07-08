@@ -39,7 +39,8 @@
     "@same/decompressfile": "file:../feature/decompressfile",
     "@same/customview": "file:../feature/customview",
     "@same/componentstack": "file:../feature/componentstack",
-    "@same/customcalendarpickerdialog": "file:../feature/customcalendarpickerdialog"
+    "@same/customcalendarpickerdialog": "file:../feature/customcalendarpickerdialog",
+    "@same/waterripples": "file:../feature/waterripples"
   }
 }
 

@@ -16,7 +16,8 @@
           "@same/decompressfile",
           "@same/customview",
           "@same/componentstack",
-          "@same/customcalendarpickerdialog"
+          "@same/customcalendarpickerdialog",
+          "@same/waterripples"
         ]
       }
     }

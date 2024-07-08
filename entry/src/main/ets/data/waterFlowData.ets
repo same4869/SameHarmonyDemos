@@ -56,4 +56,6 @@ export const waterFlowData: SceneModuleInfo[] = [
   new SceneModuleInfo($r('app.media.custom_calendar_picker_dialog'), '自定义日历选择器',
     'customcalendarpickerdialog/CalendarView', 'UI布局', 0, "",
     true),
+  new SceneModuleInfo($r('app.media.water_ripples'), '听歌识曲水波纹案例', 'waterripples/WaterRipples', '动效', 1, "",
+    true),
 ]
