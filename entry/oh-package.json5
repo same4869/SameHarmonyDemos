@@ -41,7 +41,8 @@
     "@same/componentstack": "file:../feature/componentstack",
     "@same/customcalendarpickerdialog": "file:../feature/customcalendarpickerdialog",
     "@same/waterripples": "file:../feature/waterripples",
-    "@same/swipersmoothvariation": "file:../feature/swipersmoothvariation"
+    "@same/swipersmoothvariation": "file:../feature/swipersmoothvariation",
+    "@same/searchcomponent": "file:../feature/searchcomponent"
   }
 }
 

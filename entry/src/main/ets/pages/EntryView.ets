@@ -4,6 +4,7 @@ import { DynamicsRouter } from '@same/routermodule/Index';
 import { MLog } from '@same/utils';
 import { waterFlowData } from '../data/waterFlowData';
 import util from '@ohos.util';
+import { SearchComponent } from '@same/searchcomponent';
 
 import('@same/addressexchange/src/main/ets/view/AddressExchangeView');
 import('@same/customtabbar/src/main/ets/view/TabView');
@@ -73,7 +74,11 @@ struct EntryView {
   build() {
     Stack() {
       Navigation(this.pageStack) {
-        FunctionalScenes({ listData: this.listData })
+        Column(){
+          // 首页搜索组件
+          SearchComponent()
+          FunctionalScenes({ listData: this.listData })
+        }
       }
       .padding({ bottom: 1 })
       .backgroundColor("#f1f1f1")

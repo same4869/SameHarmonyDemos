@@ -1,0 +1,1 @@
+export { SceneModuleInfo } from './src/main/ets/model/SceneModuleInfo';

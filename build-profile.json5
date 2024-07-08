@@ -176,6 +176,10 @@
     {
       "name": "swipersmoothvariation",
       "srcPath": "./feature/swipersmoothvariation",
+    },
+    {
+      "name": "searchcomponent",
+      "srcPath": "./feature/searchcomponent",
     }
   ]
 }
