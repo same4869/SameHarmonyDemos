@@ -71,6 +71,11 @@ struct EntryView {
   //   this.testTime()
   // }
 
+  aboutToAppear(): void {
+    // 存储初始数据用于搜索筛选
+    AppStorage.setOrCreate('listData', this.listData);
+  }
+
   build() {
     Stack() {
       Navigation(this.pageStack) {

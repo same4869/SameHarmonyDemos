@@ -15,6 +15,8 @@ export default class EntryAbility extends UIAbility {
       libPrefix: "@same", mapPath: "routerMap"
     }, this.context);
 
+    // 绑定上下文信息
+    AppStorage.setOrCreate('context', this.context);
     // 事件订阅(获取上次异常退出信息)
     eventSubscription();
   }
