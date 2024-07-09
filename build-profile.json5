@@ -180,6 +180,10 @@
     {
       "name": "searchcomponent",
       "srcPath": "./feature/searchcomponent",
+    },
+    {
+      "name": "swipercomponent",
+      "srcPath": "./feature/swipercomponent",
     }
   ]
 }

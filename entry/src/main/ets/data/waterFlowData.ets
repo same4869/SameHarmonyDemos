@@ -59,6 +59,7 @@ export const waterFlowData: SceneModuleInfo[] = [
   new SceneModuleInfo($r('app.media.water_ripples'), '听歌识曲水波纹案例', 'waterripples/WaterRipples', '动效', 1, "",
     true),
   new SceneModuleInfo($r('app.media.swiper_smooth_variation'), 'Swiper高度可变化效果实现',
-    'swipersmoothvariation/SwiperSmoothVariation', '动效', 1, "",
-    true),
+    'swipersmoothvariation/SwiperSmoothVariation', '动效', 1, "", true),
+  new SceneModuleInfo($r("app.media.swiper_component"), '多层级轮播图方案', "swipercomponent/SwiperComponent", '动效',
+    2, "", true)
 ]
