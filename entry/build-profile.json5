@@ -19,7 +19,8 @@
           "@same/customcalendarpickerdialog",
           "@same/waterripples",
           "@same/swipersmoothvariation",
-          "@same/swipercomponent"
+          "@same/swipercomponent",
+          "@same/citysearch"
         ]
       }
     }

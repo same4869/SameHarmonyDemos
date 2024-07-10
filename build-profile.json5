@@ -184,6 +184,10 @@
     {
       "name": "swipercomponent",
       "srcPath": "./feature/swipercomponent",
+    },
+    {
+      "name": "citysearch",
+      "srcPath": "./feature/citysearch",
     }
   ]
 }

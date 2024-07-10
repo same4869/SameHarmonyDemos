@@ -1,0 +1,36 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "page from package"
+    },
+    {
+      "name": "citysearch_module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "citysearch_EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "citysearch_address",
+      "value": "address"
+    },
+    {
+      "name": "citysearch_hotCity",
+      "value": "国内热门城市"
+    },
+    {
+      "name": "citysearch_searchText",
+      "value": "搜索"
+    },
+    {
+      "name": "citysearch_placeholder",
+      "value": "长沙"
+    },
+    {
+      "name": "citysearch_only_show_ui",
+      "value": "此样式仅为案例展示"
+    }
+  ]
+}

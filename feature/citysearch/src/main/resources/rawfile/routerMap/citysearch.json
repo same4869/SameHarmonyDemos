@@ -1,0 +1,10 @@
+{
+  "routerMap": [
+    {
+      "name": "citysearch/CitySearch",
+      "pageModule": "citysearch",
+      "pageSourceFile": "src/main/ets/generated/RouterBuilder.ets",
+      "registerFunction": "citySearchRegister"
+    }
+  ]
+}
