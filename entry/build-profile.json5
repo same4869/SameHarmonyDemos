@@ -20,7 +20,8 @@
           "@same/waterripples",
           "@same/swipersmoothvariation",
           "@same/swipercomponent",
-          "@same/citysearch"
+          "@same/citysearch",
+          "@same/shortvideo"
         ]
       }
     }

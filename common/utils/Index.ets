@@ -12,4 +12,6 @@ export { MToast } from './src/main/ets/utils/MToast'
 
 export { cameraCapture } from './src/main/ets/utils/CameraUtils'
 
+export { GlobalStateDialog, GlobalStateDialogManager } from './src/main/ets/component/GlobalStateDialog';
+
 

@@ -188,6 +188,10 @@
     {
       "name": "citysearch",
       "srcPath": "./feature/citysearch",
+    },
+    {
+      "name": "shortvideo",
+      "srcPath": "./feature/shortvideo",
     }
   ]
 }

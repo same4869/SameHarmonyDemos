@@ -1,7 +1,7 @@
 import { FunctionalScenes } from "@same/functionalscenes/src/main/ets/FunctionalScenes"
 import { SceneModuleInfo } from '@same/functionalscenes/src/main/ets/model/SceneModuleInfo';
 import { DynamicsRouter } from '@same/routermodule/Index';
-import { MLog } from '@same/utils';
+import { GlobalStateDialog, GlobalStateDialogManager, MLog } from '@same/utils';
 import { waterFlowData } from '../data/waterFlowData';
 import util from '@ohos.util';
 import { SearchComponent } from '@same/searchcomponent';
@@ -74,6 +74,8 @@ struct EntryView {
   aboutToAppear(): void {
     // 存储初始数据用于搜索筛选
     AppStorage.setOrCreate('listData', this.listData);
+
+    GlobalStateDialogManager.getGlobalStateDialogNodeController().setUIContext(this.getUIContext());
   }
 
   build() {
@@ -92,6 +94,9 @@ struct EntryView {
       .hideNavBar(false)
       .navDestination(this.pageMap)
       .mode(this.navigationMode)
+
+      // 全局状态保留能力弹窗
+      GlobalStateDialog()
     }
     .alignContent(Alignment.BottomEnd)
     .height("100%")

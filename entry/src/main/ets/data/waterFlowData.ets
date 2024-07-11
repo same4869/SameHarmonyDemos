@@ -63,4 +63,5 @@ export const waterFlowData: SceneModuleInfo[] = [
   new SceneModuleInfo($r("app.media.swiper_component"), '多层级轮播图方案', "swipercomponent/SwiperComponent", '动效',
     2, "", true),
   new SceneModuleInfo($r('app.media.city_search'), '选择城市', 'citysearch/CitySearch', 'UI布局', 0, "", true),
+  new SceneModuleInfo($r('app.media.short_video'), '短视频切换', 'shortvideo/ShortVideo', 'UI布局', 0, "", true),
 ]

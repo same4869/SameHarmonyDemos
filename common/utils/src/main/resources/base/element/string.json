@@ -3,6 +3,14 @@
     {
       "name": "page_show",
       "value": "page from package"
+    },
+    {
+      "name": "ohos_global_state_dialog_sixty_percent",
+      "value": "60%"
+    },
+    {
+      "name": "ohos_global_state_dialog_hundred_percent",
+      "value": "100%"
     }
   ]
 }

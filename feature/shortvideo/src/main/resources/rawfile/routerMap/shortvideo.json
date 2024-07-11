@@ -1,0 +1,10 @@
+{
+  "routerMap": [
+    {
+      "name": "shortvideo/ShortVideo",
+      "pageModule": "shortvideo",
+      "pageSourceFile": "src/main/ets/generated/RouterBuilder.ets",
+      "registerFunction": "shortVideoRegister"
+    }
+  ]
+}
