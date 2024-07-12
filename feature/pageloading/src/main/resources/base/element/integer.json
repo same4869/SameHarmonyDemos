@@ -1,0 +1,140 @@
+{
+  "integer": [
+    {
+      "name": "page_loading_progress_width",
+      "value": 80
+    },
+    {
+      "name": "page_loading_progress_height",
+      "value": 80
+    },
+    {
+      "name": "page_loading_progress_font_size",
+      "value": 16
+    },
+    {
+      "name": "page_loading_banner_border_radius",
+      "value": 25
+    },
+    {
+      "name": "page_loading_banner_margin_top",
+      "value": 12
+    },
+    {
+      "name": "page_loading_banner_shadow_border_radius",
+      "value": 25
+    },
+    {
+      "name": "page_loading_commodity_font",
+      "value": 18
+    },
+    {
+      "name": "page_loading_new_commodity_height",
+      "value": 50
+    },
+    {
+      "name": "page_loading_column_padding_left",
+      "value": 12
+    },
+    {
+      "name": "page_loading_column_padding_right",
+      "value": 12
+    },
+    {
+      "name": "page_loading_commodity_image_width",
+      "value": 130
+    },
+    {
+      "name": "page_loading_commodity_image_padding_top",
+      "value": 10
+    },
+    {
+      "name": "page_loading_commodity_image_padding_bottom",
+      "value": 10
+    },
+    {
+      "name": "page_loading_commodity_title_text_font_size",
+      "value": 16
+    },
+    {
+      "name": "page_loading_commodity_price_text_font_size",
+      "value": 20
+    },
+    {
+      "name": "page_loading_commodity_price_margin_top",
+      "value": 12
+    },
+    {
+      "name": "page_loading_commodity_border_radius",
+      "value": 10
+    },
+    {
+      "name": "page_loading_commodity_insurance_font_size",
+      "value": 12
+    },
+    {
+      "name": "page_loading_commodity_insurance_border_width",
+      "value": 1
+    },
+    {
+      "name": "page_loading_commodity_insurance_border_radius",
+      "value": 4
+    },
+    {
+      "name": "page_loading_commodity_insurance_padding_left",
+      "value": 8
+    },
+    {
+      "name": "page_loading_commodity_insurance_padding_right",
+      "value": 8
+    },
+    {
+      "name": "page_loading_commodity_insurance_padding_top",
+      "value": 3
+    },
+    {
+      "name": "page_loading_commodity_insurance_padding_bottom",
+      "value": 3
+    },
+    {
+      "name": "page_loading_commodity_insurance_margin_right",
+      "value": 12
+    },
+    {
+      "name": "page_loading_views_image_width",
+      "value": 20
+    },
+    {
+      "name": "page_loading_views_font",
+      "value": 16
+    },
+    {
+      "name": "page_loading_views_margin_left",
+      "value": 5
+    },
+    {
+      "name": "page_loading_views_height",
+      "value": 20
+    },
+    {
+      "name": "page_loading_views_width",
+      "value": 60
+    },
+    {
+      "name": "page_loading_views_margin_top",
+      "value": 12
+    },
+    {
+      "name": "page_loading_commodity_list_item_height",
+      "value": 130
+    },
+    {
+      "name": "page_loading_commodity_list_item_padding",
+      "value": 12
+    },
+    {
+      "name": "page_loading_commodity_list_item_margin_top",
+      "value": 12
+    }
+  ]
+}

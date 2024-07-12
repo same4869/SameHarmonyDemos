@@ -21,7 +21,8 @@
           "@same/swipersmoothvariation",
           "@same/swipercomponent",
           "@same/citysearch",
-          "@same/shortvideo"
+          "@same/shortvideo",
+          "@same/pageloading"
         ]
       }
     }

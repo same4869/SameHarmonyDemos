@@ -1,0 +1,10 @@
+{
+  "routerMap": [
+    {
+      "name": "pageloading/PageLoading",
+      "pageModule": "pageloading",
+      "pageSourceFile": "src/main/ets/generated/RouterBuilder.ets",
+      "registerFunction": "pageLoadingRegister"
+    }
+  ]
+}

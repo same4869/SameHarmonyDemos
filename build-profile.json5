@@ -192,6 +192,10 @@
     {
       "name": "shortvideo",
       "srcPath": "./feature/shortvideo",
+    },
+    {
+      "name": "pageloading",
+      "srcPath": "./feature/pageloading",
     }
   ]
 }

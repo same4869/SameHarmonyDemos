@@ -1,0 +1,24 @@
+{
+  "color": [
+    {
+      "name": "page_loading_progress_background",
+      "value": "#40000000"
+    },
+    {
+      "name": "page_loading_banner_shadow_color",
+      "value": "#AAAAAA"
+    },
+    {
+      "name": "page_loading_goods_price_text_color",
+      "value": "#E84026"
+    },
+    {
+      "name": "page_loading_goods_insurance_text_color",
+      "value": "#ED6F21"
+    },
+    {
+      "name": "page_loading_goods_insurance_border_color",
+      "value": "#ED6F21"
+    }
+  ]
+}
