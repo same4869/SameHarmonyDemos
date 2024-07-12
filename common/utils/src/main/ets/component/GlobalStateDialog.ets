@@ -52,12 +52,7 @@ export struct GlobalStateDialog {
       topRight: $r('app.integer.ohos_global_state_dialog_number_10')
     })
     .width($r('app.string.ohos_global_state_dialog_hundred_percent'))
-    .animation({
-      duration: 1000,
-      curve: Curve.,
-      iterations: 1,
-      playMode: PlayMode.Normal
-    })
+    .transition(TransitionEffect.translate({ x: 0, y: 600 }).animation({ duration: 200 }))
   }
 }
 
