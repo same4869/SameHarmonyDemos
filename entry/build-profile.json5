@@ -23,7 +23,8 @@
           "@same/citysearch",
           "@same/shortvideo",
           "@same/pageloading",
-          "@same/sidebaranimation"
+          "@same/sidebaranimation",
+          "@same/lottieview"
         ]
       }
     }

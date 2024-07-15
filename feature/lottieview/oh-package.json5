@@ -1,0 +1,14 @@
+{
+  "name": "lottieview",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "Index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@same/common": "file:../../common/utils",
+    "@ohos/dynamicsRouter": "file:../../feature/routermodule",
+    // Lottie模块
+    "@ohos/lottie": "2.0.0"
+  }
+}

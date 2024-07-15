@@ -47,7 +47,8 @@
     "@same/citysearch": "file:../feature/citysearch",
     "@same/shortvideo": "file:../feature/shortvideo",
     "@same/pageloading": "file:../feature/pageloading",
-    "@same/sidebaranimation": "file:../feature/sidebaranimation"
+    "@same/sidebaranimation": "file:../feature/sidebaranimation",
+    "@same/lottieview": "file:../feature/lottieview"
   }
 }
 

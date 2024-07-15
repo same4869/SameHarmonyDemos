@@ -200,6 +200,10 @@
     {
       "name": "sidebaranimation",
       "srcPath": "./feature/sidebaranimation",
+    },
+    {
+      "name": "lottieview",
+      "srcPath": "./feature/lottieview",
     }
   ]
 }

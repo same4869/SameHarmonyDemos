@@ -1,0 +1,10 @@
+{
+  "routerMap": [
+    {
+      "name": "lottieview/LottieView",
+      "pageModule": "lottieview",
+      "pageSourceFile": "src/main/ets/generated/RouterBuilder.ets",
+      "registerFunction": "lottieViewRegister"
+    }
+  ]
+}
