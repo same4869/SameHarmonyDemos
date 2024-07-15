@@ -46,7 +46,8 @@
     "@same/swipercomponent": "file:../feature/swipercomponent",
     "@same/citysearch": "file:../feature/citysearch",
     "@same/shortvideo": "file:../feature/shortvideo",
-    "@same/pageloading": "file:../feature/pageloading"
+    "@same/pageloading": "file:../feature/pageloading",
+    "@same/sidebaranimation": "file:../feature/sidebaranimation"
   }
 }
 

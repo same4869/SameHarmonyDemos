@@ -66,4 +66,6 @@ export const waterFlowData: SceneModuleInfo[] = [
   new SceneModuleInfo($r('app.media.short_video'), '短视频切换', 'shortvideo/ShortVideo', 'UI布局', 0, "", true),
   new SceneModuleInfo($r('app.media.page_loading'), '页面加载效果实现案例', 'pageloading/PageLoading', '动效', 1, "",
     true),
+  new SceneModuleInfo($r('app.media.side_bar_animation'), 'SideBarContainer侧边栏淡入淡出动效实现案例',
+    'sidebaranimation/SideBarAnimationView', '动效', 0, "", true),
 ]

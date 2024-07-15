@@ -1,0 +1,10 @@
+{
+  "routerMap": [
+    {
+      "name": "sidebaranimation/SideBarAnimationView",
+      "pageModule": "sidebaranimation",
+      "pageSourceFile": "src/main/ets/generated/RouterBuilder.ets",
+      "registerFunction": "sideBarAnimationViewRegister"
+    }
+  ]
+}
