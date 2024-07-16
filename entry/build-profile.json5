@@ -24,7 +24,8 @@
           "@same/shortvideo",
           "@same/pageloading",
           "@same/sidebaranimation",
-          "@same/lottieview"
+          "@same/lottieview",
+          "@same/imagecompression"
         ]
       }
     }

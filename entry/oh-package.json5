@@ -48,7 +48,8 @@
     "@same/shortvideo": "file:../feature/shortvideo",
     "@same/pageloading": "file:../feature/pageloading",
     "@same/sidebaranimation": "file:../feature/sidebaranimation",
-    "@same/lottieview": "file:../feature/lottieview"
+    "@same/lottieview": "file:../feature/lottieview",
+    "@same/imagecompression": "file:../feature/imagecompression"
   }
 }
 

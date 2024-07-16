@@ -204,6 +204,10 @@
     {
       "name": "lottieview",
       "srcPath": "./feature/lottieview",
+    },
+    {
+      "name": "imagecompression",
+      "srcPath": "./feature/imagecompression",
     }
   ]
 }

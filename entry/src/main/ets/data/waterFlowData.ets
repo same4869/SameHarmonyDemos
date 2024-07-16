@@ -69,4 +69,6 @@ export const waterFlowData: SceneModuleInfo[] = [
   new SceneModuleInfo($r('app.media.side_bar_animation'), 'SideBarContainer侧边栏淡入淡出动效实现案例',
     'sidebaranimation/SideBarAnimationView', '动效', 0, "", true),
   new SceneModuleInfo($r('app.media.lottie_animation'), 'Lottie', 'lottieview/LottieView', '三方库', 0, "", true),
+  new SceneModuleInfo($r('app.media.image_compression'), '图片压缩方案', 'imagecompression/ImageCompression', '其他', 3,
+    "", true),
 ]

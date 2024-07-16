@@ -1,0 +1,10 @@
+{
+  "routerMap": [
+    {
+      "name": "imagecompression/ImageCompression",
+      "pageModule": "imagecompression",
+      "pageSourceFile": "src/main/ets/generated/RouterBuilder.ets",
+      "registerFunction": "imageCompressionRegister"
+    }
+  ]
+}
