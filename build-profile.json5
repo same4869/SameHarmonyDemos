@@ -212,6 +212,10 @@
     {
       "name": "paintcomponent",
       "srcPath": "./feature/paintcomponent",
+    },
+    {
+      "name": "expandtitle",
+      "srcPath": "./feature/expandtitle",
     }
   ]
 }
