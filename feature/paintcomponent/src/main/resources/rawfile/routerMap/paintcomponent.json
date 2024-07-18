@@ -1,0 +1,10 @@
+{
+  "routerMap": [
+    {
+      "name": "paintcomponent/PaintComponent",
+      "pageModule": "paintcomponent",
+      "pageSourceFile": "src/main/ets/generated/RouterBuilder.ets",
+      "registerFunction": "paintComponentRegister"
+    }
+  ]
+}

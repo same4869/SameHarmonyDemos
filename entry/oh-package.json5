@@ -49,7 +49,8 @@
     "@same/pageloading": "file:../feature/pageloading",
     "@same/sidebaranimation": "file:../feature/sidebaranimation",
     "@same/lottieview": "file:../feature/lottieview",
-    "@same/imagecompression": "file:../feature/imagecompression"
+    "@same/imagecompression": "file:../feature/imagecompression",
+    "@same/paintcomponent": "file:../feature/paintcomponent",
   }
 }
 

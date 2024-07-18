@@ -71,4 +71,6 @@ export const waterFlowData: SceneModuleInfo[] = [
   new SceneModuleInfo($r('app.media.lottie_animation'), 'Lottie', 'lottieview/LottieView', '三方库', 0, "", true),
   new SceneModuleInfo($r('app.media.image_compression'), '图片压缩方案', 'imagecompression/ImageCompression', '其他', 3,
     "", true),
+  new SceneModuleInfo($r('app.media.paint_component'), '使用绘制组件实现自定义进度动画',
+    'paintcomponent/PaintComponent', '动效', 1, "", true),
 ]

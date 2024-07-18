@@ -208,6 +208,10 @@
     {
       "name": "imagecompression",
       "srcPath": "./feature/imagecompression",
+    },
+    {
+      "name": "paintcomponent",
+      "srcPath": "./feature/paintcomponent",
     }
   ]
 }

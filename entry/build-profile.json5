@@ -25,7 +25,8 @@
           "@same/pageloading",
           "@same/sidebaranimation",
           "@same/lottieview",
-          "@same/imagecompression"
+          "@same/imagecompression",
+          "@same/paintcomponent"
         ]
       }
     }
