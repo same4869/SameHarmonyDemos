@@ -73,4 +73,6 @@ export const waterFlowData: SceneModuleInfo[] = [
     "", true),
   new SceneModuleInfo($r('app.media.paint_component'), '使用绘制组件实现自定义进度动画',
     'paintcomponent/PaintComponent', '动效', 1, "", true),
+  new SceneModuleInfo($r('app.media.expand_title'), '标题下拉缩放案例', 'expandtitle/TitleExpansion', '动效', 1, "",
+    true),
 ]
