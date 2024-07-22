@@ -51,7 +51,8 @@
     "@same/lottieview": "file:../feature/lottieview",
     "@same/imagecompression": "file:../feature/imagecompression",
     "@same/paintcomponent": "file:../feature/paintcomponent",
-    "@same/expandtitle": "file:../feature/expandtitle"
+    "@same/expandtitle": "file:../feature/expandtitle",
+    "@same/listslidetohistory": "file:../feature/listslidetohistory"
   }
 }
 

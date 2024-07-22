@@ -27,7 +27,8 @@
           "@same/lottieview",
           "@same/imagecompression",
           "@same/paintcomponent",
-          "@same/expandtitle"
+          "@same/expandtitle",
+          "@same/listslidetohistory"
         ]
       }
     }

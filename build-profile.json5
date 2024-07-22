@@ -216,6 +216,10 @@
     {
       "name": "expandtitle",
       "srcPath": "./feature/expandtitle",
+    },
+    {
+      "name": "listslidetohistory",
+      "srcPath": "./feature/listslidetohistory",
     }
   ]
 }
