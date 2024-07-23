@@ -220,6 +220,10 @@
     {
       "name": "listslidetohistory",
       "srcPath": "./feature/listslidetohistory",
+    },
+    {
+      "name": "imageenableanalyzer",
+      "srcPath": "./feature/imageenableanalyzer",
     }
   ]
 }

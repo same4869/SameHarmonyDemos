@@ -1,0 +1,10 @@
+{
+  "routerMap": [
+    {
+      "name": "imageenableanalyzer/ImageView",
+      "pageModule": "imageenableanalyzer",
+      "pageSourceFile": "src/main/ets/generated/RouterBuilder.ets",
+      "registerFunction": "imageViewRegister"
+    }
+  ]
+}

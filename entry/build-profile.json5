@@ -28,7 +28,8 @@
           "@same/imagecompression",
           "@same/paintcomponent",
           "@same/expandtitle",
-          "@same/listslidetohistory"
+          "@same/listslidetohistory",
+          "@same/imageenableanalyzer"
         ]
       }
     }

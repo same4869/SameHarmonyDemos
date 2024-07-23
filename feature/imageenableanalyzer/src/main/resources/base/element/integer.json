@@ -1,0 +1,124 @@
+{
+  "integer": [
+    {
+      "name": "imageenableanalyzer_swiper_height",
+      "value": 450
+    },
+    {
+      "name": "imageenableanalyzer_indicator_itemWidth",
+      "value": 10
+    },
+    {
+      "name": "imageenableanalyzer_contain_line_height",
+      "value": 24
+    },
+    {
+      "name": "imageenableanalyzer_indicator_selectedItemWidth",
+      "value": 10
+    },
+    {
+      "name": "imageenableanalyzer_indicator_selectedItemHeight",
+      "value": 10
+    },
+    {
+      "name": "imageenableanalyzer_bubble_text_fontSize",
+      "value": 12
+    },
+    {
+      "name": "imageenableanalyzer_row_text_width",
+      "value": 46
+    },
+    {
+      "name": "imageenableanalyzer_row_text_height",
+      "value": 24
+    },
+    {
+      "name": "imageenableanalyzer_row_borderRadius",
+      "value": 12
+    },
+    {
+      "name": "imageenableanalyzer_indicator_itemHeight",
+      "value": 10
+    },
+    {
+      "name": "imageenableanalyzer_row_margin_right",
+      "value": 16
+    },
+    {
+      "name": "imageenableanalyzer_row_margin_bottom",
+      "value": 16
+    },
+    {
+      "name": "imageenableanalyzer_view_margin_top",
+      "value": 50
+    },
+    {
+      "name": "imageenableanalyzer_content_margin_top",
+      "value": 12
+    },
+    {
+      "name": "imageenableanalyzer_column_padding_left",
+      "value": 12
+    },
+    {
+      "name": "imageenableanalyzer_column_padding_right",
+      "value": 12
+    },
+    {
+      "name": "imageenableanalyzer_column_margin_top",
+      "value": 8
+    },
+    {
+      "name": "imageenableanalyzer_icon_width",
+      "value": 35
+    },
+    {
+      "name": "imageenableanalyzer_share_width",
+      "value": 35
+    },
+    {
+      "name": "imageenableanalyzer_text_title_fontSize",
+      "value": 19
+    },
+    {
+      "name": "imageenableanalyzer_text_content_fontSize",
+      "value": 17
+    },
+    {
+      "name": "imageenableanalyzer_text_padding_left",
+      "value": 12
+    },
+    {
+      "name": "imageenableanalyzer_text_padding_right",
+      "value": 12
+    },
+    {
+      "name": "imageenableanalyzer_text_padding_top",
+      "value": 8
+    },
+    {
+      "name": "imageenableanalyzer_view_padding_top",
+      "value": 12
+    },
+    {
+      "name": "imageenableanalyzer_view_padding_left",
+      "value": 12
+    },
+    {
+      "name": "imageenableanalyzer_view_padding_right",
+      "value": 12
+    },
+    {
+      "name": "imageenableanalyzer_view_padding_bottom",
+      "value": 18
+    },
+    {
+      "name": "imageenableanalyzer_view_borderRadius",
+      "value": 16
+    },
+    {
+      "name": "imageenableanalyzer_batman_margin_left",
+      "value": 13
+    }
+  ]
+}

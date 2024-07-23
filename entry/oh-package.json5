@@ -52,7 +52,8 @@
     "@same/imagecompression": "file:../feature/imagecompression",
     "@same/paintcomponent": "file:../feature/paintcomponent",
     "@same/expandtitle": "file:../feature/expandtitle",
-    "@same/listslidetohistory": "file:../feature/listslidetohistory"
+    "@same/listslidetohistory": "file:../feature/listslidetohistory",
+    "@same/imageenableanalyzer": "file:../feature/imageenableanalyzer"
   }
 }
 

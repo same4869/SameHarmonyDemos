@@ -78,4 +78,7 @@ export const waterFlowData: SceneModuleInfo[] = [
   new SceneModuleInfo($r('app.media.list_slide_to_history'), '长列表滑动到指定列表项动效实现案例',
     'listslidetohistory/ListSlideToHistory', '动效', 1, "",
     true),
+  new SceneModuleInfo($r('app.media.image_enableanalyzer'), '图片拖拽AI抠图案例', 'imageenableanalyzer/ImageView',
+    '其他', 1, "",
+    true),
 ]

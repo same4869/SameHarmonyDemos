@@ -1,0 +1,56 @@
+{
+  "color": [
+    {
+      "name": "imageenableanalyzer_white",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "imageenableanalyzer_blank",
+      "value": "#000000"
+    },
+    {
+      "name": "imageenableanalyzer_orange",
+      "value": "#ff9e4a"
+    },
+    {
+      "name": "imageenableanalyzer_red",
+      "value": "#ed394b"
+    },
+    {
+      "name": "imageenableanalyzer_pink",
+      "value": "#E92F4F"
+    },
+    {
+      "name": "imageenableanalyzer_gray",
+      "value": "#808080"
+    },
+    {
+      "name": "imageenableanalyzer_divider",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "imageenableanalyzer_bg",
+      "value": "#424445"
+    },
+    {
+      "name": "imageenableanalyzer_border",
+      "value": "#33000000"
+    },
+    {
+      "name": "imageenableanalyzer_light_white",
+      "value": "#ffffff"
+    },
+    {
+      "name": "imageenableanalyzer_bg2",
+      "value": "#04929292"
+    },
+    {
+      "name": "imageenableanalyzer_bg3",
+      "value": "#55000000"
+    },
+    {
+      "name": "imageenableanalyzer_content_color",
+      "value": "#244371"
+    }
+  ]
+}
