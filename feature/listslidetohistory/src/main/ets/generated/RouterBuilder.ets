@@ -15,4 +15,14 @@
 
 // auto-generated
 import { DynamicsRouter, AppRouterInfo } from '@ohos/dynamicsRouter/Index';
+import { ListSlideToHistory } from '../view/ListSlideToHistory'
+
+@Builder
+function listSlideToHistoryBuilder() {
+  ListSlideToHistory();
+}
+
+export function listSlideToHistoryRegister(routerInfo: AppRouterInfo) {
+  DynamicsRouter.registerAppRouterPage(routerInfo, wrapBuilder(listSlideToHistoryBuilder));
+}
 

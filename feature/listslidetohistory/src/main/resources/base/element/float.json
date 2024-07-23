@@ -1,0 +1,11 @@
+{
+  "float": [
+    {
+      "name": "list_slide_to_history_opacity",
+      "value": "0.6"
+    },{
+      "name": "list_slide_to_history_jump_button_opacity",
+      "value": "0.8"
+    }
+  ]
+}

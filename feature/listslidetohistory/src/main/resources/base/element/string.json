@@ -1,8 +1,60 @@
 {
   "string": [
     {
-      "name": "page_show",
-      "value": "page from package"
+      "name": "list_slide_to_history_shared_desc",
+      "value": "滑动列表到上次浏览历史记录"
+    },
+    {
+      "name": "list_slide_to_history_near_message",
+      "value": "附近的人"
+    },
+    {
+      "name": "list_slide_to_history_harmony_hei_ti",
+      "value": "HarmonyHeiTi"
+    },
+    {
+      "name": "list_slide_to_history_share",
+      "value": "分享"
+    },
+    {
+      "name": "list_slide_to_history_thumbs_up",
+      "value": "点赞"
+    },
+    {
+      "name": "list_slide_to_history_message",
+      "value": "评论"
+    },
+    {
+      "name": "list_slide_to_history_layout_100",
+      "value": "100%"
+    },
+    {
+      "name": "list_slide_to_history_jump_to_history",
+      "value": "跳转到上次浏览历史"
+    },
+    {
+      "name": "list_slide_to_history_jump_to_top",
+      "value": "跳转到顶部"
+    },
+    {
+      "name": "list_slide_to_history_jump_position_x",
+      "value": "50%"
+    },
+    {
+      "name": "list_slide_to_history_jump_position_y",
+      "value": "90%"
+    },
+    {
+      "name": "list_slide_to_history_jump_markAnchor_x",
+      "value": "50%"
+    },
+    {
+      "name": "list_slide_to_history_jump_text_one",
+      "value": "这是第%d条消息："
+    },
+    {
+      "name": "list_slide_to_history_other_function",
+      "value": "仅演示，可自行实现业务功能"
     }
   ]
 }

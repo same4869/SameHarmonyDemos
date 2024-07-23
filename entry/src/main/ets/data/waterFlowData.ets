@@ -75,4 +75,7 @@ export const waterFlowData: SceneModuleInfo[] = [
     'paintcomponent/PaintComponent', '动效', 1, "", true),
   new SceneModuleInfo($r('app.media.expand_title'), '标题下拉缩放案例', 'expandtitle/TitleExpansion', '动效', 1, "",
     true),
+  new SceneModuleInfo($r('app.media.list_slide_to_history'), '长列表滑动到指定列表项动效实现案例',
+    'listslidetohistory/ListSlideToHistory', '动效', 1, "",
+    true),
 ]

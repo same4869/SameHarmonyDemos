@@ -1,3 +1,10 @@
 {
-  "routerMap": []
+  "routerMap": [
+    {
+      "name": "listslidetohistory/ListSlideToHistory",
+      "pageModule": "listslidetohistory",
+      "pageSourceFile": "src/main/ets/generated/RouterBuilder.ets",
+      "registerFunction": "listSlideToHistoryRegister"
+    }
+  ]
 }
