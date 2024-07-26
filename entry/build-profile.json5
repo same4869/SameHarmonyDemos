@@ -29,7 +29,8 @@
           "@same/paintcomponent",
           "@same/expandtitle",
           "@same/listslidetohistory",
-          "@same/imageenableanalyzer"
+          "@same/imageenableanalyzer",
+          "@same/digitalscrollanimation"
         ]
       }
     }

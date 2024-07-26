@@ -81,4 +81,7 @@ export const waterFlowData: SceneModuleInfo[] = [
   new SceneModuleInfo($r('app.media.image_enableanalyzer'), '图片拖拽AI抠图案例', 'imageenableanalyzer/ImageView',
     '其他', 1, "",
     true),
+  new SceneModuleInfo($r('app.media.number_scroll'), '数字滚动', 'digitalscrollanimation/DigitalScrollExample', '动效',
+    1, "",
+    true),
 ]

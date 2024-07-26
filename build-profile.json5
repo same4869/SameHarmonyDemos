@@ -224,6 +224,10 @@
     {
       "name": "imageenableanalyzer",
       "srcPath": "./feature/imageenableanalyzer",
+    },
+    {
+      "name": "digitalscrollanimation",
+      "srcPath": "./feature/digitalscrollanimation",
     }
   ]
 }
