@@ -55,7 +55,8 @@
     "@same/listslidetohistory": "file:../feature/listslidetohistory",
     "@same/imageenableanalyzer": "file:../feature/imageenableanalyzer",
     "@same/digitalscrollanimation": "file:../feature/digitalscrollanimation",
-    "@same/listitemoverflow": "file:../feature/listitemoverflow"
+    "@same/listitemoverflow": "file:../feature/listitemoverflow",
+    "@same/webgetcameraimage": "file:../feature/webgetcameraimage"
   }
 }
 

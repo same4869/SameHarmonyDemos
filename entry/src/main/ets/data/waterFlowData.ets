@@ -87,4 +87,8 @@ export const waterFlowData: SceneModuleInfo[] = [
   new SceneModuleInfo($r('app.media.listitem_overflow'), '元素超出List区域', 'listitemoverflow/AboutMe', 'UI布局', 1,
     "",
     true),
+  new SceneModuleInfo($r('app.media.web_get_camera_image'), 'Web获取相机拍照图片案例',
+    'webgetcameraimage/WebGetCameraImageView', '其他', 1,
+    "",
+    true),
 ]

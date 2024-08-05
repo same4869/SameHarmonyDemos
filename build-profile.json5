@@ -232,6 +232,10 @@
     {
       "name": "listitemoverflow",
       "srcPath": "./feature/listitemoverflow",
+    },
+    {
+      "name": "webgetcameraimage",
+      "srcPath": "./feature/webgetcameraimage",
     }
   ]
 }

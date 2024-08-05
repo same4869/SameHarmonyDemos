@@ -1,0 +1,10 @@
+{
+  "routerMap": [
+    {
+      "name": "webgetcameraimage/WebGetCameraImageView",
+      "pageModule": "webgetcameraimage",
+      "pageSourceFile": "src/main/ets/generated/RouterBuilder.ets",
+      "registerFunction": "webGetCameraImageViewRegister"
+    }
+  ]
+}

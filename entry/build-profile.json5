@@ -31,7 +31,8 @@
           "@same/listslidetohistory",
           "@same/imageenableanalyzer",
           "@same/digitalscrollanimation",
-          "@same/listitemoverflow"
+          "@same/listitemoverflow",
+          "@same/webgetcameraimage"
         ]
       }
     }
