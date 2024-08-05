@@ -30,7 +30,8 @@
           "@same/expandtitle",
           "@same/listslidetohistory",
           "@same/imageenableanalyzer",
-          "@same/digitalscrollanimation"
+          "@same/digitalscrollanimation",
+          "@same/listitemoverflow"
         ]
       }
     }

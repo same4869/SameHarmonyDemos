@@ -228,6 +228,10 @@
     {
       "name": "digitalscrollanimation",
       "srcPath": "./feature/digitalscrollanimation",
+    },
+    {
+      "name": "listitemoverflow",
+      "srcPath": "./feature/listitemoverflow",
     }
   ]
 }

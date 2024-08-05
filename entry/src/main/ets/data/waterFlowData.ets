@@ -84,4 +84,7 @@ export const waterFlowData: SceneModuleInfo[] = [
   new SceneModuleInfo($r('app.media.number_scroll'), '数字滚动', 'digitalscrollanimation/DigitalScrollExample', '动效',
     1, "",
     true),
+  new SceneModuleInfo($r('app.media.listitem_overflow'), '元素超出List区域', 'listitemoverflow/AboutMe', 'UI布局', 1,
+    "",
+    true),
 ]

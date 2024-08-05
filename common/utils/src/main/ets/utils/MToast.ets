@@ -8,7 +8,7 @@ import { MLog } from '../log/MLog'
  */
 
 export class MToast {
-  static showToast(message: string, duration: number = 2000) {
+  static showToast(message: ResourceStr, duration: number = 2000) {
     try {
       promptAction.showToast({
         message: message,
