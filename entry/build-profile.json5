@@ -32,7 +32,8 @@
           "@same/imageenableanalyzer",
           "@same/digitalscrollanimation",
           "@same/listitemoverflow",
-          "@same/webgetcameraimage"
+          "@same/webgetcameraimage",
+          "@same/bigfilecopy"
         ]
       }
     }

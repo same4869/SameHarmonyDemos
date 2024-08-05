@@ -91,4 +91,6 @@ export const waterFlowData: SceneModuleInfo[] = [
     'webgetcameraimage/WebGetCameraImageView', '其他', 1,
     "",
     true),
+  new SceneModuleInfo($r('app.media.big_file_copy'), '大文件拷贝案例', "bigfilecopy/BigFileCopyView", '其他', 1, "",
+    true),
 ]

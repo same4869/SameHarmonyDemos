@@ -236,6 +236,10 @@
     {
       "name": "webgetcameraimage",
       "srcPath": "./feature/webgetcameraimage",
+    },
+    {
+      "name": "bigfilecopy",
+      "srcPath": "./feature/bigfilecopy",
     }
   ]
 }
