@@ -58,6 +58,7 @@
     "@same/listitemoverflow": "file:../feature/listitemoverflow",
     "@same/webgetcameraimage": "file:../feature/webgetcameraimage",
     "@same/bigfilecopy": "file:../feature/bigfilecopy"
-  }
+  ,
+    "@same/bottomdrawerslidecase": "file:../feature/bottomdrawerslidecase"}
 }
 

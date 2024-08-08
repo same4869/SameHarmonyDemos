@@ -240,6 +240,10 @@
     {
       "name": "bigfilecopy",
       "srcPath": "./feature/bigfilecopy",
+    },
+    {
+      "name": "bottomdrawerslidecase",
+      "srcPath": "./feature/bottomdrawerslidecase",
     }
   ]
 }

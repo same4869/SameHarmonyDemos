@@ -34,7 +34,8 @@
           "@same/listitemoverflow",
           "@same/webgetcameraimage",
           "@same/bigfilecopy"
-        ]
+        ,
+    "@same/bottomdrawerslidecase"]
       }
     }
   },
