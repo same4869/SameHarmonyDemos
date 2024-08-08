@@ -3,6 +3,26 @@
     {
       "name": "page_show",
       "value": "page from package"
+    },
+    {
+      "name": "bigfilecopy_copy_button_msg",
+      "value": "Start Copy"
+    },
+    {
+      "name": "bigfilecopy_preview_button_msg",
+      "value": "Preview"
+    },
+    {
+      "name": "bigfilecopy_full_size",
+      "value": "100%"
+    },
+    {
+      "name": "bigfilecopy_reset_button_msg",
+      "value": "Reset"
+    },
+    {
+      "name": "bigfilecopy_prompt_msg",
+      "value": "please copy file first"
     }
   ]
 }
