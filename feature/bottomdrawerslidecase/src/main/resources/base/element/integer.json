@@ -1,0 +1,72 @@
+{
+  "integer": [
+    {
+      "name": "bottomdrawerslidecase_other_itemheight",
+      "value": 150
+    },
+    {
+      "name": "bottomdrawerslidecase_width_1",
+      "value": 1
+    },
+    {
+      "name": "bottomdrawerslidecase_height_50",
+      "value": 50
+    },
+    {
+      "name": "bottomdrawerslidecase_height_5",
+      "value": 5
+    },
+    {
+      "name": "bottomdrawerslidecase_height_10",
+      "value": 10
+    },
+    {
+      "name": "bottomdrawerslidecase_height_22",
+      "value": 22
+    },
+    {
+      "name": "bottomdrawerslidecase_height_48",
+      "value": 48
+    },
+    {
+      "name": "bottomdrawerslidecase_number_18",
+      "value": 18
+    },
+    {
+      "name": "bottomdrawerslidecase_number_25",
+      "value": 25
+    },
+    {
+      "name": "bottomdrawerslidecase_number_15",
+      "value": 15
+    },
+    {
+      "name": "bottomdrawerslidecase_number_5",
+      "value": 5
+    },
+    {
+      "name": "bottomdrawerslidecase_number_10",
+      "value": 10
+    },
+    {
+      "name": "bottomdrawerslidecase_number_60",
+      "value": 60
+    },
+    {
+      "name": "bottomdrawerslidecase_number_30",
+      "value": 30
+    },
+    {
+      "name": "bottomdrawerslidecase_number_20",
+      "value": 20
+    },
+    {
+      "name": "bottomdrawerslidecase_number_22",
+      "value": 22
+    },
+    {
+      "name": "bottomdrawerslidecase_number_1000",
+      "value": 1000
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "color": [
+    {
+      "name": "bottomdrawerslidecase_list_first_backgroundcolor",
+      "value": "#f1f2f6"
+    },
+    {
+      "name": "bottomdrawerslidecase_list_header_text",
+      "value": "#4c69b9"
+    },
+    {
+      "name": "bottomdrawerslidecase_list_header_shadow",
+      "value": "#c6daf5"
+    },
+    {
+      "name": "bottomdrawerslidecase_list_header_backgroundcolor",
+      "value": "#e9f3ff"
+    },
+    {
+      "name": "bottomdrawerslidecase_setting_item_view_backgroundcolor",
+      "value": "#e5e5e5"
+    }
+  ]
+}
