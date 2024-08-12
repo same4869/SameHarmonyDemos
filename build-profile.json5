@@ -244,6 +244,10 @@
     {
       "name": "bottomdrawerslidecase",
       "srcPath": "./feature/bottomdrawerslidecase",
+    },
+    {
+      "name": "chinesetopinyin",
+      "srcPath": "./feature/chinesetopinyin",
     }
   ]
 }

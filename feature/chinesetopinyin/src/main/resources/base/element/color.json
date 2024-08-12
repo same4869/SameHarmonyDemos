@@ -1,0 +1,36 @@
+{
+  "color": [
+    {
+      "name": "pinyin_start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "pinyin_title_font_color",
+      "value": "#182431"
+    },
+    {
+      "name": "pinyin_list_title_color",
+      "value": "#99182431"
+    },
+    {
+      "name": "pinyin_list_content_color",
+      "value": "#99182431"
+    },
+    {
+      "name": "pinyin_text_input_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "pinyin_list_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "pinyin_divider_color",
+      "value": "#0c000000"
+    },
+    {
+      "name": "pinyin_body_background",
+      "value": "#F1F3F5"
+    }
+  ]
+}

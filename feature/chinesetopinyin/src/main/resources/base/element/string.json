@@ -1,0 +1,120 @@
+{
+  "string": [
+    {
+      "name": "pinyin_name_title",
+      "value": "姓名(中文)"
+    },
+    {
+      "name": "pinyin_name_content",
+      "value": "王小明"
+    },
+    {
+      "name": "pinyin_name_change_title",
+      "value": "姓名(拼音)"
+    },
+    {
+      "name": "pinyin_name_change_content",
+      "value": "WANGXIAOMING"
+    },
+    {
+      "name": "pinyin_sex_title",
+      "value": "性别"
+    },
+    {
+      "name": "pinyin_sex_content",
+      "value": "男"
+    },
+    {
+      "name": "pinyin_country_title",
+      "value": "国籍"
+    },
+    {
+      "name": "pinyin_country_content",
+      "value": "中国"
+    },
+    {
+      "name": "pinyin_id_title",
+      "value": "身份证"
+    },
+    {
+      "name": "pinyin_id_content",
+      "value": "310*************11"
+    },
+    {
+      "name": "pinyin_id_type_title",
+      "value": "证件类型"
+    },
+    {
+      "name": "pinyin_id_type_content",
+      "value": "身份证"
+    },
+    {
+      "name": "pinyin_id_validity_title",
+      "value": "有效期"
+    },
+    {
+      "name": "pinyin_id_validity_content",
+      "value": "正常"
+    },
+    {
+      "name": "pinyin_title_width",
+      "value": "100%"
+    },
+    {
+      "name": "pinyin_name_title_width",
+      "value": "30%"
+    },
+    {
+      "name": "pinyin_title_content",
+      "value": "个人信息修改"
+    },
+    {
+      "name": "pinyin_list_width",
+      "value": "100%"
+    },
+    {
+      "name": "pinyin_body_width",
+      "value": "100%"
+    },
+    {
+      "name": "pinyin_body_height",
+      "value": "100%"
+    },
+    {
+      "name": "pinyin_button_content",
+      "value": "提交"
+    },
+    {
+      "name": "pinyin_button_width",
+      "value": "45%"
+    },
+    {
+      "name": "pinyin_id",
+      "value": "pinyin"
+    },
+    {
+      "name": "pinyin_sex_id",
+      "value": "sex"
+    },
+    {
+      "name": "pinyin_country_id",
+      "value": "country"
+    },
+    {
+      "name": "pinyin_type_id",
+      "value": "idType"
+    },
+    {
+      "name": "pinyin_card_id",
+      "value": "idCard"
+    },
+    {
+      "name": "pinyin_validity_id",
+      "value": "idValidity"
+    },
+    {
+      "name": "pinyin_only_show",
+      "value": "此样式仅为案例展示"
+    }
+  ]
+}

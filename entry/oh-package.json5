@@ -59,6 +59,7 @@
     "@same/webgetcameraimage": "file:../feature/webgetcameraimage",
     "@same/bigfilecopy": "file:../feature/bigfilecopy"
   ,
-    "@same/bottomdrawerslidecase": "file:../feature/bottomdrawerslidecase"}
+    "@same/bottomdrawerslidecase": "file:../feature/bottomdrawerslidecase",
+    "@same/chinesetopinyin": "file:../feature/chinesetopinyin"}
 }
 

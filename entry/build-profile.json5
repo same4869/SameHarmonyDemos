@@ -35,7 +35,8 @@
           "@same/webgetcameraimage",
           "@same/bigfilecopy"
         ,
-    "@same/bottomdrawerslidecase"]
+    "@same/bottomdrawerslidecase",
+    "@same/chinesetopinyin"]
       }
     }
   },

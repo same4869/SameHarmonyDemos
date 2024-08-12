@@ -93,5 +93,8 @@ export const waterFlowData: SceneModuleInfo[] = [
     true),
   new SceneModuleInfo($r('app.media.big_file_copy'), '大文件拷贝案例', "bigfilecopy/BigFileCopyView", '其他', 1, "",
     true),
-new SceneModuleInfo($r('app.media.bottom_drawer_slide'), '底部抽屉滑动效果案例', "bottomdrawerslidecase/bottomdrawerslidecase", '动效', 1, "",true),
+  new SceneModuleInfo($r('app.media.bottom_drawer_slide'), '底部抽屉滑动效果案例',
+    "bottomdrawerslidecase/bottomdrawerslidecase", '动效', 1, "", true),
+  new SceneModuleInfo($r('app.media.Chinese_to_pinyin'), '汉字转拼音案例', "chinesetopinyin/chinesetopinyin", '其他', 1,
+    "", true),
 ]
