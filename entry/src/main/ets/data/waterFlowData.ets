@@ -97,4 +97,6 @@ export const waterFlowData: SceneModuleInfo[] = [
     "bottomdrawerslidecase/bottomdrawerslidecase", '动效', 1, "", true),
   new SceneModuleInfo($r('app.media.Chinese_to_pinyin'), '汉字转拼音案例', "chinesetopinyin/chinesetopinyin", '其他', 1,
     "", true),
+  new SceneModuleInfo($r('app.media.voting_component'), '投票组件', 'votingcomponent/votingcomponent', '动效', 2, "",
+    true),
 ]

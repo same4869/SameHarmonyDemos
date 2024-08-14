@@ -248,6 +248,10 @@
     {
       "name": "chinesetopinyin",
       "srcPath": "./feature/chinesetopinyin",
+    },
+    {
+      "name": "votingcomponent",
+      "srcPath": "./feature/votingcomponent",
     }
   ]
 }

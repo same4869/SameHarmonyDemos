@@ -36,7 +36,8 @@
           "@same/bigfilecopy"
         ,
     "@same/bottomdrawerslidecase",
-    "@same/chinesetopinyin"]
+    "@same/chinesetopinyin",
+    "@same/votingcomponent"]
       }
     }
   },

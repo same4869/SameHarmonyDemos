@@ -60,6 +60,7 @@
     "@same/bigfilecopy": "file:../feature/bigfilecopy"
   ,
     "@same/bottomdrawerslidecase": "file:../feature/bottomdrawerslidecase",
-    "@same/chinesetopinyin": "file:../feature/chinesetopinyin"}
+    "@same/chinesetopinyin": "file:../feature/chinesetopinyin",
+    "@same/votingcomponent": "file:../feature/votingcomponent"}
 }
 
