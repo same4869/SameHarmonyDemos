@@ -99,4 +99,6 @@ export const waterFlowData: SceneModuleInfo[] = [
     "", true),
   new SceneModuleInfo($r('app.media.voting_component'), '投票组件', 'votingcomponent/votingcomponent', '动效', 2, "",
     true),
+  new SceneModuleInfo($r('app.media.drag_to_switch_pictures'), '左右拖动切换图片效果案例',
+    'dragtoswitchpictures/dragtoswitchpictures', 'UI布局', 1, "", true),
 ]

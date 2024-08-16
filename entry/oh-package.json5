@@ -61,6 +61,7 @@
   ,
     "@same/bottomdrawerslidecase": "file:../feature/bottomdrawerslidecase",
     "@same/chinesetopinyin": "file:../feature/chinesetopinyin",
-    "@same/votingcomponent": "file:../feature/votingcomponent"}
+    "@same/votingcomponent": "file:../feature/votingcomponent",
+    "@same/dragtoswitchpictures": "file:../feature/dragtoswitchpictures"}
 }
 

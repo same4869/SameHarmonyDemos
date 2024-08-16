@@ -37,7 +37,8 @@
         ,
     "@same/bottomdrawerslidecase",
     "@same/chinesetopinyin",
-    "@same/votingcomponent"]
+    "@same/votingcomponent",
+    "@same/dragtoswitchpictures"]
       }
     }
   },
